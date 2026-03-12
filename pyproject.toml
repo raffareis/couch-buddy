@@ -1,0 +1,18 @@
+[project]
+name = "couch-buddy"
+version = "0.1.0"
+description = "AI gaming assistant that watches your screen and helps you play"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.43.0",
+    "mss>=9.0",
+    "Pillow>=10.0",
+    "chromadb>=0.5.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.24"]
+
+[project.scripts]
+couch-buddy = "couch_buddy.app.main:main"
