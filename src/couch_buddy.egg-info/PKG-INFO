@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: couch-buddy
+Version: 0.1.0
+Summary: AI gaming assistant that watches your screen and helps you play
+Requires-Python: >=3.11
+Requires-Dist: anthropic>=0.43.0
+Requires-Dist: mss>=9.0
+Requires-Dist: Pillow>=10.0
+Requires-Dist: chromadb>=0.5.0
+Requires-Dist: pydantic>=2.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.24; extra == "dev"

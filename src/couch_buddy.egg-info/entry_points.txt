@@ -1,0 +1,2 @@
+[console_scripts]
+couch-buddy = couch_buddy.app.main:main
