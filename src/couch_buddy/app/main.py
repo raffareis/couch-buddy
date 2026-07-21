@@ -65,6 +65,7 @@ def main() -> None:
         progress=ProgressStore(config.progress_dir),
         guid_map=_load_guid_map(config.guid_map_path, blueprint_names),
         blueprint_names=blueprint_names,
+        guid_map_path=config.guid_map_path,
     )
 
     if latest := _latest_save(args.saves_dir):

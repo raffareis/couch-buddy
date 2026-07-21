@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import asyncio
+import json
 import logging
 from pathlib import Path
 
@@ -21,10 +22,12 @@ class Companion:
         progress: ProgressStore,
         guid_map: dict[str, str],
         blueprint_names: dict[str, dict] | None = None,
+        guid_map_path: Path | None = None,
     ) -> None:
         self._library = library
         self._progress = progress
         self._guid_map = guid_map
+        self._guid_map_path = guid_map_path
         self._blueprint_names = blueprint_names or {}
         self._state: GameState | None = None
         self._subscribers: set[asyncio.Queue] = set()
@@ -67,8 +70,19 @@ class Companion:
     def learn_area(self, name: str) -> dict:
         """Aprende o nome da área atual (banner de área desconhecida)."""
         if self._state is not None:
-            self._guid_map[self._state.area_guid] = name
+            guid = self._state.area_guid
+            self._guid_map[guid] = name
             self._state.area_name = name
+            if self._guid_map_path is not None:
+                raw = (
+                    json.loads(self._guid_map_path.read_text())
+                    if self._guid_map_path.exists()
+                    else {}
+                )
+                raw[guid] = {"name": name, "manual": True}
+                self._guid_map_path.write_text(
+                    json.dumps(raw, ensure_ascii=False, indent=1, sort_keys=True)
+                )
             self._publish()
         return self.view()
 
