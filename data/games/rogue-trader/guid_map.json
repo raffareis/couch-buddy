@@ -1,0 +1,186 @@
+{
+ "02e31edd59054fd79a12ea0293f30660": {
+  "manual": false,
+  "name": "RoguerTraderPalaceIndoorPeaceful_IndoorNamedNPCsAndCompanions"
+ },
+ "05e7294985fa4d81b4c133f648256ed6": {
+  "manual": false,
+  "name": "VoidshipOfficersDeck"
+ },
+ "0eb7ad4f29874e7f9863d644bc26ae29": {
+  "manual": false,
+  "name": "PascalEvent_Chapter2_PascalArest"
+ },
+ "1a93512eef8d4df9aad4deb12fc3af35": {
+  "manual": false,
+  "name": "FootfallPalace"
+ },
+ "1ad46062ac824b96946c54844a04d55b": {
+  "manual": false,
+  "name": "TaintedStreets"
+ },
+ "1e35b94dbf544e289cf6139e621dd70b": {
+  "manual": false,
+  "name": "Footfall_Crematory"
+ },
+ "255859109cec4a042ade1613d80b25a4": {
+  "manual": false,
+  "name": "VoidshipBridge"
+ },
+ "2b8cacc05e1c44b2a233ca6724c5ca98": {
+  "manual": false,
+  "name": "StarPort"
+ },
+ "31b8b4b87c454bb9886501ad4fac996e": {
+  "manual": false,
+  "name": "VoidshipLowerDecks"
+ },
+ "3793e57d3e33483dad4180fc5187f1c4": {
+  "manual": false,
+  "name": "EE_WarWorldBunker"
+ },
+ "388594ed6cd841099a4c99d595c7c08c": {
+  "manual": false,
+  "name": "AgriWorldTown_Indoor"
+ },
+ "3a45e0eb02f746198867fbdd98e36638": {
+  "manual": false,
+  "name": "FootfallSlums_QuicksilverLair"
+ },
+ "3b94a148c3d74279a0ed6aacc18b320a": {
+  "manual": false,
+  "name": "Macrocannon"
+ },
+ "41db7c624a8340c9941fb857480a588c": {
+  "manual": false,
+  "name": "FootfallSlums"
+ },
+ "48cdcd77ce194f07bb55003797f321d3": {
+  "manual": false,
+  "name": "AdministratumPalace"
+ },
+ "53e40201600325245bae4470abd7a44d": {
+  "manual": false,
+  "name": "DaringHeirGuttedShip"
+ },
+ "5ccf0e69b9a34fcf8a551792f0a2b6d5": {
+  "manual": false,
+  "name": "FootfallSlums_MutantsLair"
+ },
+ "60bdb63f77a543449d388c73c5de30cf": {
+  "manual": false,
+  "name": "EE_DestroyedBlackShip"
+ },
+ "6618b69d70f5477eb21b58296d77ff4a": {
+  "manual": false,
+  "name": "VoidshipOfficersDeck_Patent"
+ },
+ "66b9351d457f4363afebcbca96a506da": {
+  "manual": false,
+  "name": "VoidshipOfficersDeck"
+ },
+ "697811fcf1394f96828ac36be4706c42": {
+  "manual": false,
+  "name": "VoidshipLowerDecks"
+ },
+ "6e0f19e95a8a4278b169cd00deb53e3b": {
+  "manual": false,
+  "name": "CommandCenter"
+ },
+ "76d32b4fa6cb4c138eb17c4ace074fdd": {
+  "manual": false,
+  "name": "ForgeWorld"
+ },
+ "7d0c258f475140f882b1ec2569c48f5a": {
+  "manual": false,
+  "name": "Lair2"
+ },
+ "8250d8a565c84dcdba6bf3064211cdf9": {
+  "manual": false,
+  "name": "JailPlanetoid"
+ },
+ "87c7e43a097841e0b79a746720d8caff": {
+  "manual": false,
+  "name": "TaintedStreets"
+ },
+ "88e6dcb6ed831c34d90eb2cd510ed98b": {
+  "manual": false,
+  "name": "Macrocannon"
+ },
+ "9ab47ae1ac8e47a698c35324c0602384": {
+  "manual": false,
+  "name": "ArcheotechReactor"
+ },
+ "9e1a8bb634ff4edc90c5c756579bbb11": {
+  "manual": false,
+  "name": "NavigatorRoom"
+ },
+ "a205c2b285744f819733426738657cfc": {
+  "manual": false,
+  "name": "FootFallDock"
+ },
+ "a557ff05fbe04fcba0e96a2c0d172e86": {
+  "manual": false,
+  "name": "TaintedStreets_CultistsHideout"
+ },
+ "aad614cae009479986578e194f529bad": {
+  "manual": false,
+  "name": "EE_BottomlessPit"
+ },
+ "aca223699515442992b1a43ca4df100b": {
+  "manual": false,
+  "name": "ArcheotechReactor_Outdoor"
+ },
+ "b4f37597ee8247c4fa3b8a957576dfee": {
+  "manual": false,
+  "name": "AgriWorldJungle"
+ },
+ "be6db75d9f6e4498bfa4531f58dcfb4a": {
+  "manual": false,
+  "name": "RogueTraderPalacePeaceful"
+ },
+ "bed50d64d69643bda5fed061f2879203": {
+  "manual": false,
+  "name": "CassiaRoom"
+ },
+ "c4b65914a670468398d8e750f3c29b7e": {
+  "manual": false,
+  "name": "EE_SpaceScavengers_ForArt"
+ },
+ "d39e7a8b8cfe07b45a2f33cd22306b1b": {
+  "manual": false,
+  "name": "ForgeWorldSpaceHulk"
+ },
+ "df460376e7d13064fb418a5e14a87c29": {
+  "manual": false,
+  "name": "Lair3"
+ },
+ "e19cf1d6cd775514680a9bccf2a682c3": {
+  "manual": false,
+  "name": "AgriWorldTown"
+ },
+ "e422749f50584799a8b6319bcd1a2f70": {
+  "manual": false,
+  "name": "KoronusExpanseMap_Mechanics"
+ },
+ "e649c77a4bed4d3ab531d9973fd2af4e": {
+  "manual": false,
+  "name": "Footfall_LowerSection"
+ },
+ "e7b9ffa37ac347ff8b026f7e76bd5212": {
+  "manual": false,
+  "name": "EE_KhraveXenosRuins"
+ },
+ "ec2075042d104769934c57b15b0e963b": {
+  "manual": false,
+  "name": "FootfallSlums"
+ },
+ "f40c0cf464094d029ef02b817967c4c5": {
+  "manual": false,
+  "name": "ForgeWorld_Indoor"
+ },
+ "f51935342c254a15b991bb305c9f93d7": {
+  "manual": false,
+  "name": "FootfallSlums"
+ }
+}
