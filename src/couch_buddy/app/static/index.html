@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Couch Buddy — Rogue Trader</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header id="topo">
+  <div>
+    <h1 id="mapa">—</h1>
+    <div id="meta">aguardando save…</div>
+  </div>
+  <div id="sync">sem sync</div>
+</header>
+
+<div id="banner-desconhecida" class="oculto">
+  Área desconhecida. Como se chama este mapa?
+  <input id="nome-area" placeholder="ex.: Footfall">
+  <button id="salvar-area">Salvar</button>
+</div>
+
+<main>
+  <section id="checklist"></section>
+  <aside>
+    <section id="alertas"><h2>⚠ Decisões e perdíveis</h2><div id="alertas-lista"></div></section>
+    <section id="combate"><h2>Dicas de combate</h2><div id="combate-lista"></div></section>
+  </aside>
+</main>
+
+<div id="sem-guia" class="oculto">Sem guia para esta área ainda.</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

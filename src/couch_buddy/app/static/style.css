@@ -1,0 +1,58 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #12141a; --panel: #1a1e27; --panel2: #202634; --text: #d8dce6;
+  --dim: #8891a0; --accent: #d4a941; --ok: #4caf7d; --warn: #e2574c;
+  --item: #5b9bd5; --interaction: #9b7bd5; --quest: #d4a941;
+  --decision: #e2574c; --combat: #6dbf6d;
+}
+body { background: var(--bg); color: var(--text); font: 15px/1.45 system-ui, sans-serif; }
+
+#topo { display: flex; justify-content: space-between; align-items: baseline;
+  padding: 14px 22px; background: var(--panel); border-bottom: 2px solid var(--accent); }
+#topo h1 { font-size: 26px; color: var(--accent); letter-spacing: .5px; }
+#meta { color: var(--dim); margin-top: 2px; }
+#sync { color: var(--dim); font-size: 13px; text-align: right; }
+
+#banner-desconhecida { background: #4a3a17; padding: 10px 22px; }
+#banner-desconhecida input { margin: 0 8px; padding: 4px 8px; background: var(--bg);
+  border: 1px solid var(--dim); color: var(--text); border-radius: 4px; }
+#banner-desconhecida button { padding: 4px 12px; cursor: pointer; }
+
+main { display: grid; grid-template-columns: 1.6fr 1fr; gap: 18px; padding: 18px 22px; }
+section h2 { font-size: 15px; color: var(--dim); text-transform: uppercase;
+  letter-spacing: 1px; margin-bottom: 10px; }
+
+.passo { display: flex; gap: 10px; align-items: flex-start; padding: 9px 12px;
+  background: var(--panel); border-radius: 8px; margin-bottom: 6px;
+  border-left: 4px solid var(--dim); cursor: pointer; }
+.passo:hover { background: var(--panel2); }
+.passo.done { opacity: .38; }
+.passo.done .titulo { text-decoration: line-through; }
+.passo .ordem { color: var(--dim); min-width: 26px; font-variant-numeric: tabular-nums; }
+.passo .titulo { font-weight: 600; }
+.passo .detalhes { color: var(--dim); font-size: 13.5px; margin-top: 2px; }
+.passo .quest-ref { color: var(--quest); font-size: 12.5px; margin-top: 2px; }
+
+.passo.t-item { border-left-color: var(--item); }
+.passo.t-interaction { border-left-color: var(--interaction); }
+.passo.t-quest_step { border-left-color: var(--quest); }
+.passo.t-decision { border-left-color: var(--decision); }
+.passo.t-combat_tip { border-left-color: var(--combat); }
+
+.badge { font-size: 10.5px; padding: 1px 7px; border-radius: 10px; color: #0d0f13;
+  font-weight: 700; text-transform: uppercase; letter-spacing: .5px; flex-shrink: 0; margin-top: 2px; }
+.b-item { background: var(--item); } .b-interaction { background: var(--interaction); }
+.b-quest_step { background: var(--quest); } .b-decision { background: var(--decision); }
+.b-combat_tip { background: var(--combat); }
+
+.missable { outline: 1px solid var(--warn); }
+.missable .titulo::after { content: " ⚠ perdível"; color: var(--warn); font-size: 12px; }
+
+.spoiler-high .detalhes { filter: blur(5px); transition: filter .15s; }
+.spoiler-high:hover .detalhes { filter: none; }
+
+aside section { background: var(--panel); border-radius: 10px; padding: 14px; margin-bottom: 18px; }
+aside .passo { background: var(--panel2); }
+#sem-guia { padding: 40px; text-align: center; color: var(--dim); font-size: 18px; }
+.oculto { display: none !important; }
+.contador { color: var(--dim); font-size: 13px; margin-bottom: 8px; }
