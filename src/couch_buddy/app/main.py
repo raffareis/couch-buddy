@@ -53,10 +53,14 @@ def main() -> None:
     ap.add_argument("--no-open", action="store_true", help="não abrir o Chrome")
     args = ap.parse_args()
 
+    names_path = config.data_dir / "blueprint_names.json"
     companion = Companion(
         library=GuideLibrary(config.maps_dir),
         progress=ProgressStore(config.progress_dir),
         guid_map=_load_guid_map(config.guid_map_path),
+        blueprint_names=json.loads(names_path.read_text())
+        if names_path.exists()
+        else {},
     )
 
     if latest := _latest_save(args.saves_dir):

@@ -69,6 +69,53 @@ def test_view_area_desconhecida(tmp_path):
     assert view["area_name"] == "48cdcd77ce194f07bb55003797f321d3"
 
 
+def test_auto_check_por_quest_do_save(tmp_path):
+    from couch_buddy.state.models import QuestState
+
+    library = _library(tmp_path)
+    maps = tmp_path / "maps"
+    (maps / "administratum.json").write_text(
+        json.dumps(
+            {
+                "area_name": "Administratum",
+                "aliases": ["AdministratumPalace"],
+                "act": 2,
+                "sources": [],
+                "steps": [
+                    {
+                        "order": 1,
+                        "type": "quest_step",
+                        "title": "Concluir Hunting Grounds",
+                        "quest": "Hunting Grounds",
+                    },
+                    {
+                        "order": 2,
+                        "type": "quest_step",
+                        "title": "Avançar outra quest",
+                        "quest": "Other Quest",
+                    },
+                ],
+            }
+        )
+    )
+    library.reload()
+
+    state = _state("AdministratumPalace")
+    state.quests = [
+        QuestState(blueprint="aaa", state="Completed"),
+        QuestState(blueprint="bbb", state="Started"),
+    ]
+    names = {
+        "aaa": {"name": "HuntingGrounds_quest", "type": "BlueprintQuest"},
+        "bbb": {"name": "OtherQuest_quest", "type": "BlueprintQuest"},
+    }
+    view = build_view(state, library, ProgressStore(tmp_path / "p"), names)
+    steps = view["guide"]["steps"]
+    assert steps[0]["done"] is True and steps[0]["auto"] is True
+    assert steps[1]["done"] is False
+    assert view["quests_ativas"] == ["Other Quest"]
+
+
 def test_progress_roundtrip(tmp_path):
     store = ProgressStore(tmp_path / "p")
     store.set("g1", "x:1", True)

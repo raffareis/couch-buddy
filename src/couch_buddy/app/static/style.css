@@ -54,5 +54,7 @@ section h2 { font-size: 15px; color: var(--dim); text-transform: uppercase;
 aside section { background: var(--panel); border-radius: 10px; padding: 14px; margin-bottom: 18px; }
 aside .passo { background: var(--panel2); }
 #sem-guia { padding: 40px; text-align: center; color: var(--dim); font-size: 18px; }
+.quest-ativa { padding: 5px 10px; border-left: 3px solid var(--quest);
+  background: var(--panel2); border-radius: 6px; margin-bottom: 5px; font-size: 13.5px; }
 .oculto { display: none !important; }
 .contador { color: var(--dim); font-size: 13px; margin-bottom: 8px; }

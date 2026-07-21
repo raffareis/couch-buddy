@@ -20,10 +20,12 @@ class Companion:
         library: GuideLibrary,
         progress: ProgressStore,
         guid_map: dict[str, str],
+        blueprint_names: dict[str, dict] | None = None,
     ) -> None:
         self._library = library
         self._progress = progress
         self._guid_map = guid_map
+        self._blueprint_names = blueprint_names or {}
         self._state: GameState | None = None
         self._subscribers: set[asyncio.Queue] = set()
         self._loop: asyncio.AbstractEventLoop | None = None
@@ -36,7 +38,9 @@ class Companion:
         return self._state
 
     def view(self) -> dict:
-        return build_view(self._state, self._library, self._progress)
+        return build_view(
+            self._state, self._library, self._progress, self._blueprint_names
+        )
 
     def on_save(self, path: Path) -> None:
         """Callback do watcher (thread própria): parseia e publica."""

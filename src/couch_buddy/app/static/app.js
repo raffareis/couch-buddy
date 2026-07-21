@@ -14,6 +14,17 @@ function render(view) {
     : "sem sync";
   $("banner-desconhecida").classList.toggle("oculto", !view.unknown_area);
 
+  const quests = $("quests-lista");
+  quests.innerHTML = "";
+  for (const nome of view.quests_ativas || []) {
+    const el = document.createElement("div");
+    el.className = "quest-ativa";
+    el.textContent = nome;
+    quests.appendChild(el);
+  }
+  if (!quests.children.length)
+    quests.innerHTML = '<div class="contador">nenhuma</div>';
+
   const guia = view.guide;
   $("sem-guia").classList.toggle("oculto", !!guia || !view.area_name);
   const checklist = $("checklist");
