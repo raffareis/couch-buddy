@@ -223,10 +223,10 @@ class BbpFile:
             raise KeyError(f"TypeId {tid} ausente no schema")
         return self.types[full]
 
-    def _read_object_body(self, r: BinaryReader, schema: dict, identified: bool) -> dict:
+    def _read_object_body(self, r: BinaryReader, schema: dict, identified: bool, tid: str = "") -> dict:
         obj: dict = {}
         if identified:
-            obj["$type"] = schema.get("$typeid", "") + ", " + schema["name"]
+            obj["$type"] = tid + ", " + schema["name"]
         for field in schema["fields"]:
             try:
                 obj[field["name"]] = self._read_value(r, field["value"])
@@ -338,7 +338,7 @@ class BbpFile:
                 if tid == ZERO_GUID:
                     return None
                 schema = self._resolve(tid)
-                return self._read_object_body(r, schema, identified=bool(v.get("identified")))
+                return self._read_object_body(r, schema, identified=bool(v.get("identified")), tid=tid)
             return self._read_object_body(r, self.types[v["type"]], identified=False)
         if kind == "BlueprintGuid":
             return "!bp_" + r.guid_n()
