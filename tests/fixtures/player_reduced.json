@@ -1,0 +1,1247 @@
+{
+ "CurrentArea": "48cdcd77ce194f07bb55003797f321d3",
+ "CurrentAreaPart": "48cdcd77ce194f07bb55003797f321d3",
+ "CurrentStarSystem": "8814e44b66b147bdaa9cdd9ca0716cc7",
+ "Chapter": 2,
+ "m_QuestBook": {
+  "Facts": {
+   "m_Facts": [
+    {
+     "$id": "4",
+     "$type": "Kingmaker.AreaLogic.QuestSystem.Quest, Code",
+     "m_NextObjectiveOrder": 23,
+     "m_State": "Completed",
+     "m_IsInUiSelected": false,
+     "m_IsViewed": true,
+     "m_Components": [],
+     "PersistentObjectives": [
+      {
+       "$id": "5",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:00:44.9000000",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 1,
+       "Blueprint": "3674aee3fc8e4405904d2a1fdcdc315d",
+       "UniqueId": "1124b029dcb45659bf2152172398f877",
+       "IsActive": false
+      },
+      {
+       "$id": "6",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:02:39.3500000",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 2,
+       "Blueprint": "b653839065a647a08b5721e077da23e1",
+       "UniqueId": "3d55ced7df895b3f959b434219b63c02",
+       "IsActive": false
+      },
+      {
+       "$id": "7",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:08:21.0143160",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 3,
+       "Blueprint": "ae82006269384d72aeeee67baa808720",
+       "UniqueId": "594b2d895a5f507ea92fbaa3f5530a0a",
+       "IsActive": false
+      },
+      {
+       "$id": "8",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:15:43.2953970",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 4,
+       "Blueprint": "c63150e167e1404e997dacd91a0f519e",
+       "UniqueId": "c345b396a801564ea0080534d5a91d47",
+       "IsActive": false
+      },
+      {
+       "$id": "9",
+       "m_State": "Failed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:16:36.2453970",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 5,
+       "Blueprint": "a8e13174c38b437784a2090367c7899b",
+       "UniqueId": "1374ff1eb62958afba25f36e8fb943b7",
+       "IsActive": false
+      },
+      {
+       "$id": "10",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:17:47.5953970",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 6,
+       "Blueprint": "b59fbef248d64bbbb69f63c0aaa7ea7f",
+       "UniqueId": "51ad0ae591cf53028c04ed871ad05440",
+       "IsActive": false
+      },
+      {
+       "$id": "11",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:18:29.9953970",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 7,
+       "Blueprint": "f1129f0cbaf84d0bb3c20657d66c913e",
+       "UniqueId": "e37f65946d285b4980f2951416f374ad",
+       "IsActive": false
+      },
+      {
+       "$id": "12",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:19:23.6453970",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 8,
+       "Blueprint": "86c89b304b964a3fa6d47d364fea38c4",
+       "UniqueId": "c8d83aff514c5b769c7e51c7e85d5d3c",
+       "IsActive": false
+      },
+      {
+       "$id": "13",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:19:23.6453970",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 9,
+       "Blueprint": "08d1d0890ab54cf3aa1fe0a024263c46",
+       "UniqueId": "e3b83d574d135f8c8d34913298138225",
+       "IsActive": false
+      },
+      {
+       "$id": "14",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:19:52.2953970",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 10,
+       "Blueprint": "730200be4963467b895c70388107d682",
+       "UniqueId": "5403392e2bd65515b2c48894aa19d05e",
+       "IsActive": false
+      },
+      {
+       "$id": "15",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:26:45.1285366",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 11,
+       "Blueprint": "b2853763842e44cea3702afef5c7769a",
+       "UniqueId": "8c12f73e394e5b02ab269cbe91903de2",
+       "IsActive": false
+      },
+      {
+       "$id": "16",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:31:37.6457926",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 12,
+       "Blueprint": "d554c708ab6747629878c2004a9b869e",
+       "UniqueId": "8279fe7dc5ec5e3e81c9c98d53c1acfd",
+       "IsActive": false
+      },
+      {
+       "$id": "17",
+       "m_State": "Failed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:31:41.1532436",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 13,
+       "Blueprint": "2de41aba145b4769a75aa391de683391",
+       "UniqueId": "ff5628aba8f25f5e970f78f80f65265a",
+       "IsActive": false
+      },
+      {
+       "$id": "18",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:57:28.3426596",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 17,
+       "Blueprint": "b3cb2f5a07d34a45a9633413fcd23904",
+       "UniqueId": "fc595cfd215c588a932b5d0ed68aeab1",
+       "IsActive": false
+      },
+      {
+       "$id": "19",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:59:07.2426596",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 18,
+       "Blueprint": "b41510ad4b7a48ab88b8647b4105da64",
+       "UniqueId": "4eda77a5d95658deab58b2308f3ee873",
+       "IsActive": false
+      },
+      {
+       "$id": "20",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:00:01.5426596",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "21",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$936a5a61-8d71-4a28-9cc5-3a4560201cac"
+        }
+       ],
+       "Order": 19,
+       "Blueprint": "e237bde21ea04c44a91922be9c52acc6",
+       "UniqueId": "3479f1629b5052529972b413111f7b75",
+       "IsActive": false
+      },
+      {
+       "$id": "22",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:11:37.3785448",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 20,
+       "Blueprint": "cd460ec934f141b197975151db670db4",
+       "UniqueId": "ca52d7c63dcb56bf916cefb467810002",
+       "IsActive": false
+      },
+      {
+       "$id": "23",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:26:12.2119840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "24",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$8f7cbb7e-7ae5-4fc9-b6bc-ec8786e96cc4"
+        }
+       ],
+       "Order": 21,
+       "Blueprint": "d0b3cb3b9ad347d6b0648d618a19da0a",
+       "UniqueId": "0efd47b5e9d054db9a6c28f68d7367ff",
+       "IsActive": false
+      },
+      {
+       "$id": "25",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:27:39.1719840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 22,
+       "Blueprint": "b7ab9a23ba6c44379ea269304d71eade",
+       "UniqueId": "e390e816bf8b5d778ae0c5ca5c730416",
+       "IsActive": false
+      },
+      {
+       "$id": "26",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:33:18.7532436",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 14,
+       "Blueprint": "36731c7eb85d4de39f8e84dd1527381e",
+       "UniqueId": "f58c63ff9b0b5117b2de4bd87f1e2bbd",
+       "IsActive": false
+      },
+      {
+       "$id": "27",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:33:40.2032436",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 15,
+       "Blueprint": "b1a82d4df5cd4cb18f1f6953345386ac",
+       "UniqueId": "fd420a8b0ebe5e60b7c5c237a9b4af9f",
+       "IsActive": false
+      },
+      {
+       "$id": "28",
+       "m_State": "None",
+       "m_IsVisible": false,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:00:00",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 0,
+       "Blueprint": "01f30291cfb04f3da8d796e8095155db",
+       "UniqueId": "afd8021d60895484aff8fa784db57dc0",
+       "IsActive": false
+      },
+      {
+       "$id": "29",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:56:16.2926596",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 16,
+       "Blueprint": "b999b4927db6466ab7fcc1005bd5c865",
+       "UniqueId": "cf75c9e5c1c05fe68355f7a2165c83dc",
+       "IsActive": false
+      }
+     ],
+     "Blueprint": "873581b35a694af28fa421b2d4de8de3",
+     "UniqueId": "a6bd07f5b58d53e5b7499053ac2e973b",
+     "IsActive": true
+    },
+    {
+     "$id": "30",
+     "$type": "Kingmaker.AreaLogic.QuestSystem.Quest, Code",
+     "m_NextObjectiveOrder": 2,
+     "m_State": "Completed",
+     "m_IsInUiSelected": false,
+     "m_IsViewed": true,
+     "m_Components": [],
+     "PersistentObjectives": [
+      {
+       "$id": "31",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:29:10.6219840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 1,
+       "Blueprint": "965fe10e27a1455cbfe4bb47a2df09e4",
+       "UniqueId": "b7062976c5705d2bb5a2a1e04c68442d",
+       "IsActive": false
+      }
+     ],
+     "Blueprint": "8fe0de2a7c5e4027992be6c94a0d3b80",
+     "UniqueId": "98a44ce3696f5148882d7e649d99f582",
+     "IsActive": true
+    },
+    {
+     "$id": "32",
+     "$type": "Kingmaker.AreaLogic.QuestSystem.Quest, Code",
+     "m_NextObjectiveOrder": 2,
+     "m_State": "Completed",
+     "m_IsInUiSelected": false,
+     "m_IsViewed": true,
+     "m_Components": [],
+     "PersistentObjectives": [
+      {
+       "$id": "33",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:29:10.6219840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 1,
+       "Blueprint": "005eae6d5f144e98a7ff25c06f810b8b",
+       "UniqueId": "cacd84d85ce652508097231239187147",
+       "IsActive": false
+      }
+     ],
+     "Blueprint": "07dfe24cf43b449d89d76d35753cbb0a",
+     "UniqueId": "326eeb8525a15bd780319f99cb9fc0fa",
+     "IsActive": true
+    },
+    {
+     "$id": "34",
+     "$type": "Kingmaker.AreaLogic.QuestSystem.Quest, Code",
+     "m_NextObjectiveOrder": 2,
+     "m_State": "Completed",
+     "m_IsInUiSelected": false,
+     "m_IsViewed": false,
+     "m_Components": [],
+     "PersistentObjectives": [
+      {
+       "$id": "35",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:29:10.6219840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 1,
+       "Blueprint": "1864e6f4efeb4304b322901479715dad",
+       "UniqueId": "5f9814cbcbe75baab8c94a5e42ffde40",
+       "IsActive": false
+      }
+     ],
+     "Blueprint": "8025164af5e746c3bb17b226586263ed",
+     "UniqueId": "425aea137ce55c0aa4487d230b6926de",
+     "IsActive": true
+    },
+    {
+     "$id": "36",
+     "$type": "Kingmaker.AreaLogic.QuestSystem.Quest, Code",
+     "m_NextObjectiveOrder": 2,
+     "m_State": "Started",
+     "m_IsInUiSelected": false,
+     "m_IsViewed": true,
+     "m_Components": [],
+     "PersistentObjectives": [
+      {
+       "$id": "37",
+       "m_State": "Started",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:29:16.1219840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 1,
+       "Blueprint": "5ace7350b7b84c2eb354c01c5e27f084",
+       "UniqueId": "def82346c95050f49a3ca616e53f995c",
+       "IsActive": true
+      }
+     ],
+     "Blueprint": "72913c68f0e24227a77271fbdcf1b68f",
+     "UniqueId": "b947cc7990165a15b171446229e780c3",
+     "IsActive": true
+    },
+    {
+     "$id": "38",
+     "$type": "Kingmaker.AreaLogic.QuestSystem.Quest, Code",
+     "m_NextObjectiveOrder": 6,
+     "m_State": "Completed",
+     "m_IsInUiSelected": false,
+     "m_IsViewed": true,
+     "m_Components": [],
+     "PersistentObjectives": [
+      {
+       "$id": "39",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:29:16.1219840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 1,
+       "Blueprint": "136c5d56f24b43a2b7d3490c3f2c0d0e",
+       "UniqueId": "a9995e3c18e552f4a021771b655c08f4",
+       "IsActive": false
+      },
+      {
+       "$id": "40",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:29:16.1219840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 2,
+       "Blueprint": "8242c012f6834bf5baab8931d7330adb",
+       "UniqueId": "c8849f4cd3d65440b088e68a0cc4dd43",
+       "IsActive": false
+      },
+      {
+       "$id": "41",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:29:16.1219840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 3,
+       "Blueprint": "d539bc3113a8479ea38a1ded756fe825",
+       "UniqueId": "4dec1db1480458679a583e3534b2a1c7",
+       "IsActive": false
+      },
+      {
+       "$id": "42",
+       "m_State": "Started",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "02:41:53.5931692",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 4,
+       "Blueprint": "af3f644eda5444989233db5cefe0befb",
+       "UniqueId": "2aab252b0cc4585ea31881a0aa8f7639",
+       "IsActive": true
+      },
+      {
+       "$id": "43",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "08:45:10.1102754",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 5,
+       "Blueprint": "478ca7c2374c426d8b061e212300039f",
+       "UniqueId": "029bf6cbc9215f1c8fbfcf8e5def61d5",
+       "IsActive": false
+      }
+     ],
+     "Blueprint": "93ba61ff872b4e0dbd7e19f32642ca11",
+     "UniqueId": "959eb6ea63b75f90ace6094aad9fcd8b",
+     "IsActive": true
+    },
+    {
+     "$id": "44",
+     "$type": "Kingmaker.AreaLogic.QuestSystem.Quest, Code",
+     "m_NextObjectiveOrder": 2,
+     "m_State": "Completed",
+     "m_IsInUiSelected": false,
+     "m_IsViewed": false,
+     "m_Components": [],
+     "PersistentObjectives": [
+      {
+       "$id": "45",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:29:20.1719840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 1,
+       "Blueprint": "3ba9f9340db54774af5ffe48bd66242f",
+       "UniqueId": "8b61bd423c8658fbb081d74cc3ad28bf",
+       "IsActive": false
+      }
+     ],
+     "Blueprint": "77f55d1c96564d29993f46e4185eb7e4",
+     "UniqueId": "6ee5bcd541a856d19525332fceae67f8",
+     "IsActive": true
+    },
+    {
+     "$id": "46",
+     "$type": "Kingmaker.AreaLogic.QuestSystem.Quest, Code",
+     "m_NextObjectiveOrder": 8,
+     "m_State": "Completed",
+     "m_IsInUiSelected": false,
+     "m_IsViewed": true,
+     "m_Components": [],
+     "PersistentObjectives": [
+      {
+       "$id": "47",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:43:37.7719840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "48",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$b0ef704c-c64e-4219-9565-6dee869f03a2"
+        }
+       ],
+       "Order": 1,
+       "Blueprint": "4c30288d5e5c4db5b612a4170cd77a1f",
+       "UniqueId": "534660d03fe65368a3e015f8424ad6a3",
+       "IsActive": false
+      },
+      {
+       "$id": "49",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:45:15.9219840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [
+        {
+         "$id": "50",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$226dc907-52f6-41ea-8bdd-5a191ecbf7c8"
+        }
+       ],
+       "Order": 2,
+       "Blueprint": "85b1a95779144fd28eb39b53e62e2d29",
+       "UniqueId": "cfa5e20ee3dd58d4a5cd1cbb1c65a93a",
+       "IsActive": false
+      },
+      {
+       "$id": "51",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:45:15.9219840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 3,
+       "Blueprint": "5bfe426978b74d81856ea8d12bc90299",
+       "UniqueId": "cc3f7ad9c7d55506b2a186c2bec277e5",
+       "IsActive": false
+      },
+      {
+       "$id": "52",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "01:45:15.9219840",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 4,
+       "Blueprint": "3be2837b3c5e4ee38082f5768b575570",
+       "UniqueId": "e72f680524895c979e5a611c9a433fe0",
+       "IsActive": false
+      },
+      {
+       "$id": "53",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "02:16:24.5935560",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 5,
+       "Blueprint": "9f473fd996eb472b83e740a3139bdb77",
+       "UniqueId": "e2f9e9f071cc5e6598d6f724a134f7a8",
+       "IsActive": false
+      },
+      {
+       "$id": "54",
+       "m_State": "None",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:00:00",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "55",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$4d45d439-3be1-49f4-b5b5-2dc74d56ddd8"
+        }
+       ],
+       "Order": 0,
+       "Blueprint": "51532a17561d45cea97855020a27b80c",
+       "UniqueId": "9d0e6c68a44c5e4a957de98b7120ab05",
+       "IsActive": false
+      },
+      {
+       "$id": "56",
+       "m_State": "None",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:00:00",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "57",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$3286fa4f-2b16-493c-bfa6-a82fff1ecd04"
+        }
+       ],
+       "Order": 0,
+       "Blueprint": "59922dcbe1fe4c11bb3eb3f802f9cf0f",
+       "UniqueId": "47603cca9209585dba9d5491e60492ed",
+       "IsActive": false
+      },
+      {
+       "$id": "58",
+       "m_State": "None",
+       "m_IsVisible": false,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:00:00",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 0,
+       "Blueprint": "196a94713e7b4cb8ab6e28e704b18780",
+       "UniqueId": "ebe1247eb25d5353bcb14d63542c62f1",
+       "IsActive": false
+      },
+      {
+       "$id": "59",
+       "m_State": "None",
+       "m_IsVisible": false,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:00:00",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 0,
+       "Blueprint": "a54d496237004910a38fd2a600ac1455",
+       "UniqueId": "5aeeef764209511b86c955762db58ee7",
+       "IsActive": false
+      },
+      {
+       "$id": "60",
+       "m_State": "None",
+       "m_IsVisible": false,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:00:00",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 0,
+       "Blueprint": "6e424f49976046569889243fe6449cf2",
+       "UniqueId": "d24df84ad4845b85b3a2eeef832d2a34",
+       "IsActive": false
+      },
+      {
+       "$id": "61",
+       "m_State": "None",
+       "m_IsVisible": false,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:00:00",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 0,
+       "Blueprint": "ca9362d7644f41e39e6317542f518fea",
+       "UniqueId": "b2e928d07ceb5b7eb722a787532adb19",
+       "IsActive": false
+      },
+      {
+       "$id": "62",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "02:39:59.7441492",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "63",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$18c301aa-9a8c-4e60-afd9-f4d076f3220a"
+        }
+       ],
+       "Order": 6,
+       "Blueprint": "655a463337144327a715dc2260366f66",
+       "UniqueId": "ce1e8cf7586a5267af743ff3518dc171",
+       "IsActive": false
+      },
+      {
+       "$id": "64",
+       "m_State": "None",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:00:00",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "65",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$523dbf7a-e5cf-4851-a71c-4579b361f6eb"
+        }
+       ],
+       "Order": 0,
+       "Blueprint": "12ee8650188a4f7a96d4e2ec9461de4e",
+       "UniqueId": "c5090a2ce0df5f0e9d8aafe6ef172032",
+       "IsActive": false
+      },
+      {
+       "$id": "66",
+       "m_State": "None",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:00:00",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 0,
+       "Blueprint": "b1d783659dd94f59896491b7caaa4157",
+       "UniqueId": "f106ecc6ad0c585495250e1da487775d",
+       "IsActive": false
+      },
+      {
+       "$id": "67",
+       "m_State": "None",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:00:00",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 0,
+       "Blueprint": "fc22588ae25942be9df5d744f853ec13",
+       "UniqueId": "5126ea4884e25c618eaf7e0fd9d94515",
+       "IsActive": false
+      },
+      {
+       "$id": "68",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "02:41:53.5931692",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "69",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$1bb4c050-8393-4f16-a6e6-a8be73afafef"
+        }
+       ],
+       "Order": 7,
+       "Blueprint": "bd32ab255bdc42c2a48146238ed3148d",
+       "UniqueId": "fc47607079f2599cbea30b8e15304b41",
+       "IsActive": false
+      }
+     ],
+     "Blueprint": "bbe67fb398d6404892be61fff5fcee3b",
+     "UniqueId": "e38de039eaad5270a7eaa7f09b6ceb4b",
+     "IsActive": true
+    },
+    {
+     "$id": "70",
+     "$type": "Kingmaker.AreaLogic.QuestSystem.Quest, Code",
+     "m_NextObjectiveOrder": 5,
+     "m_State": "Completed",
+     "m_IsInUiSelected": false,
+     "m_IsViewed": false,
+     "m_Components": [],
+     "PersistentObjectives": [
+      {
+       "$id": "71",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "03:02:14.1931692",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "72",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$47bd5de7-1aaf-4cc0-a65d-bd6e4f407c25"
+        }
+       ],
+       "Order": 1,
+       "Blueprint": "e2b3b699f4734ff4ae71aa5f6541fe6c",
+       "UniqueId": "98da9b0d11ce5d7fae325a14f607c9ef",
+       "IsActive": false
+      },
+      {
+       "$id": "73",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "03:02:14.1931692",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 2,
+       "Blueprint": "24e538e21161435b840b05ac30ed8d13",
+       "UniqueId": "e25ffd5395fa551196b3b37a27dbf066",
+       "IsActive": false
+      },
+      {
+       "$id": "74",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "03:03:46.5931692",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 3,
+       "Blueprint": "e72cac3a98f842cea6d13b821dc550b6",
+       "UniqueId": "252880f0ec0a55d1905ca417c085c6b8",
+       "IsActive": false
+      },
+      {
+       "$id": "75",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "03:04:05.2931692",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 4,
+       "Blueprint": "b0a8690befab405d887b6ef8a1bc20c2",
+       "UniqueId": "5973c15980d55450a663a3da7a9a460f",
+       "IsActive": false
+      },
+      {
+       "$id": "76",
+       "m_State": "None",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "00:00:00",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 0,
+       "Blueprint": "a96accc490d743508d4d3b399dba11f6",
+       "UniqueId": "1d8205e5f9fa58d09b8e5015c0007c16",
+       "IsActive": false
+      }
+     ],
+     "Blueprint": "a0241ab76757434d8d484e971ee0dd64",
+     "UniqueId": "993903bf78615a03ac152ccb9f29e318",
+     "IsActive": true
+    },
+    {
+     "$id": "77",
+     "$type": "Kingmaker.AreaLogic.QuestSystem.Quest, Code",
+     "m_NextObjectiveOrder": 4,
+     "m_State": "Completed",
+     "m_IsInUiSelected": false,
+     "m_IsViewed": false,
+     "m_Components": [],
+     "PersistentObjectives": [
+      {
+       "$id": "78",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "03:15:47.1431692",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "79",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$3b0bd927-95cc-4448-b238-2ba00245e2b4"
+        }
+       ],
+       "Order": 1,
+       "Blueprint": "e39eae77490a4ec4982516b422e9803c",
+       "UniqueId": "877328828fe052bc9bb9a8dc1fa7cc6b",
+       "IsActive": false
+      },
+      {
+       "$id": "80",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "03:17:17.7431692",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "81",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$3f95288a-c88c-49dd-8000-b452970e1a44"
+        }
+       ],
+       "Order": 2,
+       "Blueprint": "2dafe0f6fe8b4a22899b03e0c6f41b68",
+       "UniqueId": "ed84b8d1ccd9527eb8bd9a19be4a2dba",
+       "IsActive": false
+      },
+      {
+       "$id": "82",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "03:59:32.7065092",
+       "m_NeedToAttention": true,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "83",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$7130262c-d06f-4b0d-bc12-ed65c0a5dfe0"
+        },
+        {
+         "$id": "84",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.AreaLogic.QuestSystem.QuestBook, Code]], Code",
+         "SourceBlueprintComponentName": "$ObjectiveStatusTrigger$9ecc86e9-afe1-4a10-9aaf-9724df7f88c3"
+        }
+       ],
+       "Order": 3,
+       "Blueprint": "4734f41bfca34fdf918854a3ee6875d2",
+       "UniqueId": "1256b00c57925a979b4e4c73a584afeb",
+       "IsActive": false
+      }
+     ],
+     "Blueprint": "a1553ba0a6dc40d19cd9eeeb5055fe07",
+     "UniqueId": "bc1be6df42635892a72de515b80927f6",
+     "IsActive": true
+    },
+    {
+     "$id": "85",
+     "$type": "Kingmaker.AreaLogic.QuestSystem.Quest, Code",
+     "m_NextObjectiveOrder": 12,
+     "m_State": "Completed",
+     "m_IsInUiSelected": false,
+     "m_IsViewed": true,
+     "m_Components": [],
+     "PersistentObjectives": [
+      {
+       "$id": "86",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "04:09:20.9565092",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "87",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$ed96acaa-d2f0-49e6-8d59-374e6ff04373"
+        }
+       ],
+       "Order": 2,
+       "Blueprint": "1bb61faa92374d8f93ec50a32ca44b32",
+       "UniqueId": "bf003039078e580e98581c3df72145a2",
+       "IsActive": false
+      },
+      {
+       "$id": "88",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "04:09:20.9565092",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 3,
+       "Blueprint": "7190053e85574296ba1ca05f56abc233",
+       "UniqueId": "668cbc2905465f218726677174db273e",
+       "IsActive": false
+      },
+      {
+       "$id": "89",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "05:30:06.4285824",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [
+        {
+         "$id": "90",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$f93e8c8b-1774-473b-a84a-750808b4bf53"
+        }
+       ],
+       "Order": 4,
+       "Blueprint": "664e623204704086b2636a57e782ba31",
+       "UniqueId": "3cd5ab4630da55a380565c033655755e",
+       "IsActive": false
+      },
+      {
+       "$id": "91",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "05:30:06.4285824",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 5,
+       "Blueprint": "d2d416902ef44bcd96b12fb6eb55b23d",
+       "UniqueId": "c11046ed1d235e18af6c53ab4525749f",
+       "IsActive": false
+      },
+      {
+       "$id": "92",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "05:30:25.3285824",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [
+        {
+         "$id": "93",
+         "$type": "Kingmaker.EntitySystem.EntityFactComponentDelegate`1+ComponentRuntime[[Kingmaker.EntitySystem.Entities.Base.Entity, Code]], Code",
+         "SourceBlueprintComponentName": "$Experience$88eb4d96-042e-43bf-b3b6-a56674de198d"
+        }
+       ],
+       "Order": 6,
+       "Blueprint": "ce2f5bdd56be450290a6723f4a8b408b",
+       "UniqueId": "1ca9afc489fd5197b2282a7a705f2b11",
+       "IsActive": false
+      },
+      {
+       "$id": "94",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "08:43:52.3102754",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 11,
+       "Blueprint": "99cfdb6e90c34f43ac7fe89c92e09605",
+       "UniqueId": "a2bc15a93e4a55d3a5280a1a7e500c88",
+       "IsActive": false
+      },
+      {
+       "$id": "95",
+       "m_State": "Started",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "05:46:27.7680974",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 7,
+       "Blueprint": "0de3a3598395482d928861b463b025ee",
+       "UniqueId": "aac9148994215594b402896370999570",
+       "IsActive": true
+      },
+      {
+       "$id": "96",
+       "m_State": "Started",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "06:17:19.6843754",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 9,
+       "Blueprint": "24fd5f42392e4887b5b0a4d979712b54",
+       "UniqueId": "da031403f122577b8e7266e6f6febefc",
+       "IsActive": true
+      },
+      {
+       "$id": "97",
+       "m_State": "Started",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "05:46:27.7680974",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 8,
+       "Blueprint": "db7d099a1e9b4a048404013954ea076b",
+       "UniqueId": "e72678519e245c1b90adc0089c15973e",
+       "IsActive": true
+      },
+      {
+       "$id": "98",
+       "m_State": "Started",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "06:17:55.7343754",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 10,
+       "Blueprint": "d3c2ee8103b041daba13e4ec98c94bb8",
+       "UniqueId": "6616fab942105774ae9c9e4e33fd7035",
+       "IsActive": true
+      },
+      {
+       "$id": "99",
+       "m_State": "Started",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "03:59:53.3565092",
+       "m_NeedToAttention": false,
+       "m_IsViewed": true,
+       "m_Components": [],
+       "Order": 1,
+       "Blueprint": "522a06f253104cdea98954c3f30b18e8",
+       "UniqueId": "530a6ba68b3b567faf17735e3a824f89",
+       "IsActive": true
+      }
+     ],
+     "Blueprint": "2acf0027876e4e119d21420cd954c2ba",
+     "UniqueId": "223681b5ef335cb4b50b111e8e41ebf6",
+     "IsActive": true
+    },
+    {
+     "$id": "100",
+     "$type": "Kingmaker.AreaLogic.QuestSystem.Quest, Code",
+     "m_NextObjectiveOrder": 2,
+     "m_State": "Completed",
+     "m_IsInUiSelected": false,
+     "m_IsViewed": false,
+     "m_Components": [],
+     "PersistentObjectives": [
+      {
+       "$id": "101",
+       "m_State": "Completed",
+       "m_IsVisible": true,
+       "m_IsCollapse": false,
+       "m_ObjectiveStartTime": "04:03:46.6065092",
+       "m_NeedToAttention": false,
+       "m_IsViewed": false,
+       "m_Components": [],
+       "Order": 1,
+       "Blueprint": "f186566b99ee46b3806c4b5953d5b359",
+       "UniqueId": "b7c4519df6e454078ee495d955eeebeb",
+       "IsActive": false
+      }
+     ],
+     "Blueprint": "febbfaba3d854d3c83fd294a8e2d316d",
+     "UniqueId": "084eebdc5a515aee81c8e46f6f11d5eb",
+     "IsActive": true
+    }
+   ]
+  }
+ }
+}

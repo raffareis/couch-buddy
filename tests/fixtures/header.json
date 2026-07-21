@@ -1,0 +1,66 @@
+{
+ "$id": "47634",
+ "m_CampaignReference": {
+  "$id": "47635",
+  "guid": "d3450f52a3e6429daf19d541be969d9d"
+ },
+ "m_DlcRewards": [],
+ "Name": "Administratum -New Save -21:46:43",
+ "Description": null,
+ "SaveId": "0b46c7567b444d8994605d7f3a5e70e7",
+ "QuestWithSaveDescription": null,
+ "PlayerCharacterName": "Lazarus",
+ "PlayerCharacterRank": 27,
+ "GameId": "1c370b02ff2a4b3bbbd3818740fdf079",
+ "Type": "Manual",
+ "IsAutoLevelupSave": false,
+ "QuickSaveNumber": 0,
+ "Area": "48cdcd77ce194f07bb55003797f321d3",
+ "AreaPart": "48cdcd77ce194f07bb55003797f321d3",
+ "AreaNameOverride": null,
+ "PartyPortraits": [
+  {
+   "$id": "47636",
+   "m_Blueprint": "b1d071298e3449a48540c773d3610aac",
+   "m_Data": null,
+   "m_IsMainCharacter": true
+  },
+  {
+   "$id": "47637",
+   "m_Blueprint": "295917ceecac418bbac0a508b12d8d2d",
+   "m_Data": null,
+   "m_IsMainCharacter": false
+  },
+  {
+   "$id": "47638",
+   "m_Blueprint": "35f87f6946654d15a6d5a0f4f86a304a",
+   "m_Data": null,
+   "m_IsMainCharacter": false
+  },
+  {
+   "$id": "47639",
+   "m_Blueprint": "4b62300c7ed24d5aa2d5cdb0d8fad056",
+   "m_Data": null,
+   "m_IsMainCharacter": false
+  },
+  {
+   "$id": "47640",
+   "m_Blueprint": "a0c6745df40a492391e848d090f4a861",
+   "m_Data": null,
+   "m_IsMainCharacter": false
+  },
+  {
+   "$id": "47641",
+   "m_Blueprint": "b57e63a38dd04b59ba3e9356d6b2448b",
+   "m_Data": null,
+   "m_IsMainCharacter": false
+  }
+ ],
+ "GameStartSystemTime": "2026-02-25T07:28:04.8925392Z",
+ "SystemSaveTime": "2026-03-05T03:09:57.4967318-03:00",
+ "GameSaveTime": "653.21:46:43.3003330",
+ "GameSaveTimeText": "",
+ "GameTotalTime": "2.06:57:28.8000000",
+ "Versions": [],
+ "CompatibilityVersion": 1
+}
