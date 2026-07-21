@@ -1,0 +1,188 @@
+{
+ "area_name": "Footfall Void Dock Alpha-Rho",
+ "aliases": [
+  "Void Dock Alpha-Rho",
+  "Void Dock Ship Alpha-Rho",
+  "Footfall Docks",
+  "FootFallDock"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://www.ludo.guide/guide/warhammer-40000-rogue-trader/tattered-spirit",
+   "title": "Ludo.guide - Footfall Walkthrough (Tattered Spirit)"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Footfall+Void+Dock+Alpha-Rho",
+   "title": "Fextralife - Footfall Void Dock Alpha-Rho"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Tattered+Spirit",
+   "title": "Fextralife - Tattered Spirit"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Footfall",
+   "title": "Fextralife - Footfall"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Astray",
+   "title": "Fextralife - Astray"
+  },
+  {
+   "url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Tattered_Spirit",
+   "title": "Neoseeker - Tattered Spirit walkthrough (via busca; fetch bloqueado)"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "decision",
+   "title": "Escolha de chegada: incógnito ou como Rogue Trader",
+   "details": "Antes de atracar em Footfall você escolhe chegar incógnito ou oficialmente como Rogue Trader. A escolha afeta várias cenas e diálogos da estadia inteira, principalmente a quest Underworld: incógnito permite se passar por 'Fidelio' no funeral (rota com mais combate e loot); chegada oficial abre a rota de investigação. Salve antes de decidir.",
+   "quest": "Tattered Spirit",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Tattered+Spirit"
+  },
+  {
+   "order": 2,
+   "type": "combat_tip",
+   "title": "Combate espacial antes de chegar a Footfall",
+   "details": "No caminho até Footfall (sistema Furibundus) sua voidship é atacada por dois Cobra Class Destroyers (~50 hull, 35 shields cada) — serve como tutorial de combate espacial. Recompensa: ~1660 XP de nave, 32 scrap e troféus. Aproveite para escanear o Ash World do sistema (XP). Na Drusus's Blessing, o Chartist Captain Austerius Thorfast (Imperial Navy) vende componentes de voidship rank 0.",
+   "quest": "Tattered Spirit",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40000-rogue-trader/tattered-spirit"
+  },
+  {
+   "order": 3,
+   "type": "quest_step",
+   "title": "Atracar no Void Dock Alpha-Rho e emboscada na doca",
+   "details": "Escolha o Void Dock Alpha-Rho para atracar. Um Liege Representative recebe você na doca, mas thugs da gangue Anvers atacam (o representante morre). Se Idira estiver no grupo, ela prevê a emboscada e você pode posicionar os personagens antes do combate começar. Heinrix não está disponível no grupo neste ponto.",
+   "quest": "Tattered Spirit",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40000-rogue-trader/tattered-spirit"
+  },
+  {
+   "order": 4,
+   "type": "combat_tip",
+   "title": "Luta contra Bloodstained Amelia",
+   "details": "Boss da doca: Bloodstained Amelia (125 Wounds, 77% Dodge, WS 50, BS 65) + ~12 Anver Thugs e 4 Armoured Anvers. Derrote os Anver Thugs ANTES de focar na Amelia: enquanto ela vive, dá buff aos aliados; se morrer cedo, os inimigos restantes ganham ataques extras. Depois do combate, interrogue o servo sobrevivente e mande-o reportar ao Liege.",
+   "quest": "Tattered Spirit",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40000-rogue-trader/tattered-spirit"
+  },
+  {
+   "order": 5,
+   "type": "item",
+   "title": "Strange Memo (embaixo da plataforma norte)",
+   "details": "Na área da plataforma ao norte (acima de onde Bloodstained Amelia estava), procure EMBAIXO da plataforma o item Strange Memo. Ele contém as três pistas do cadeado do baú do perímetro sul (ver passos seguintes). Sem o memo você ainda pode abrir o baú, mas o memo dá o contexto das pistas.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40000-rogue-trader/tattered-spirit"
+  },
+  {
+   "order": 6,
+   "type": "item",
+   "title": "Caixas da doca: XP de Commerce e Psyconductive Frame",
+   "details": "Examine as caixas perto do local da luta: teste de Commerce 35 dá XP. Entre os itens saqueáveis da doca está o Psyconductive Frame (acessório de psyber-raven) e itens diversos.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40000-rogue-trader/tattered-spirit"
+  },
+  {
+   "order": 7,
+   "type": "interaction",
+   "title": "Pista 1 do cadeado: livro no altar de Saint Drusus",
+   "details": "No santuário de St. Drusus, no nordeste da doca, examine o livro 'Life of Saint Drusus Volume THREE' — a pista 'The holy book by the altar' do Strange Memo. Número: 3.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40000-rogue-trader/tattered-spirit"
+  },
+  {
+   "order": 8,
+   "type": "interaction",
+   "title": "Pista 2 do cadeado: funcionário da alfândega",
+   "details": "Na mesa da alfândega a leste, encontre o Rank 5 Functionary Morbetio Kavalli — a pista 'That void-damn customs guy'. Número: 5. Perto dele há um Adeptus Arbites Helmet para saquear.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40000-rogue-trader/tattered-spirit"
+  },
+  {
+   "order": 9,
+   "type": "interaction",
+   "title": "Pista 3 do cadeado: placa do hangar",
+   "details": "No nordeste, leia a placa 'Hangar A 1' perto da janela — a pista 'Hangar by the Window'. Número: 1.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40000-rogue-trader/tattered-spirit"
+  },
+  {
+   "order": 10,
+   "type": "item",
+   "title": "Baú com cadeado de combinação: 3-5-4-1",
+   "details": "No perímetro sul da doca há um baú com cadeado de 4 botões. Sequência correta: 3, 5, 4, 1 (o botão 2 está quebrado, por isso pula-se para o 4). Conteúdo reportado: Interrogation Goggles e Psyker's Footwear em todas as fontes; além deles, Fireproof Cape (ludo.guide) ou Multikey (Fextralife) — o loot pode variar por versão do jogo.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Footfall"
+  },
+  {
+   "order": 11,
+   "type": "item",
+   "title": "Baú escondido com Grenadier's Clock",
+   "details": "No canto inferior direito do mapa da doca, logo ABAIXO da saída para o resto de Footfall, há um baú escondido contendo o Grenadier's Clock — acessório que dá imunidade a dano de granadas para o portador e o grupo. Fácil de passar batido: vasculhe a borda sul/sudeste antes de sair da doca.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Tattered_Spirit"
+  },
+  {
+   "order": 12,
+   "type": "quest_step",
+   "title": "Opticon-22: dívida, comércio e 'On the Hunt for Knowledge'",
+   "details": "No sudoeste da doca fale com Opticon-22, representante comercial dos Explorators. Ele deve um pagamento à dinastia von Valancius — decisão: perdoar a dívida (+5000 de reputação com Explorators, recomendado) ou aceitar 2 Mobile Extractiums. Diga que busca a amizade do Adeptus Mechanicus para iniciar a errand 'On the Hunt for Knowledge' (estudar 10 planetas). Perguntar sobre o interesse dele em outros planetas dá o rumor 'Hotbed of Xenoheresy'. Ele também funciona como merchant dos Explorators.",
+   "quest": "On the Hunt for Knowledge",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40000-rogue-trader/tattered-spirit"
+  },
+  {
+   "order": 13,
+   "type": "quest_step",
+   "title": "Pista de Dreams and Stories junto às janelas da doca",
+   "details": "Uma das caches/pistas da quest Dreams and Stories fica na área do 'restaurante', junto às janelas do Dock Alpha-Rho, num pilar no topo do mapa. Interaja para coletar a pista. (A quest é ativada pelo rumor Cache in the Former Lantern, obtido no Atrium.)",
+   "quest": "Dreams and Stories",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Dreams+and+Stories"
+  },
+  {
+   "order": 14,
+   "type": "interaction",
+   "title": "Refugiados salvos (Astray) em frente ao shuttle",
+   "details": "Se você salvou os refugiados mutantes na cena do Atrium (quest Astray, teste de Coercion ou origem Commissar), pode falar com eles no Void Dock Alpha-Rho em frente ao seu shuttle e fazer uma escolha de convicção (conviction points). Só existe se os refugiados sobreviveram.",
+   "quest": "Astray",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Astray"
+  },
+  {
+   "order": 15,
+   "type": "quest_step",
+   "title": "Fim de Tattered Spirit: nave reparada, falar com Vigdis",
+   "details": "Depois de progredir as quests de Footfall, o reparo da nave termina (Vox Master Vigdis anuncia). Volte ao Void Dock Alpha-Rho e fale com Vigdis Surri Otta para concluir Tattered Spirit. A bordo, Heinrix retorna ao grupo e entrega a quest 'Secrets of the Cult'; começa 'Reclaim What Was Lost'.",
+   "quest": "Tattered Spirit",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Tattered+Spirit"
+  }
+ ]
+}

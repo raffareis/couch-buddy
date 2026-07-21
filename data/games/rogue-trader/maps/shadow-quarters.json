@@ -1,0 +1,155 @@
+{
+ "area_name": "Footfall Shadow Quarters",
+ "aliases": [
+  "Shadow Quarters",
+  "Adeptus Amasecus (bar)",
+  "FootfallSlums_Canteena"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Footfall+Shadow+Quarters",
+   "title": "Fextralife - Footfall Shadow Quarters"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Persona+Non+Grata",
+   "title": "Fextralife - Persona Non Grata"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Rot",
+   "title": "Fextralife - Rot"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Cache+in+the+Old+Bridge",
+   "title": "Fextralife - Cache in the Old Bridge"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Where+the+Shadows+Are+Deepest+of+All",
+   "title": "Fextralife - Where the Shadows Are Deepest of All"
+  },
+  {
+   "url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/astray-walkthrough-cultist-hideout-location-in-rogue-trader",
+   "title": "GamerGuides - Astray Walkthrough (via busca; fetch bloqueado)"
+  },
+  {
+   "url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Rot",
+   "title": "Neoseeker - Rot walkthrough (via busca; fetch bloqueado)"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Wanted+on+Footfall",
+   "title": "Fextralife - Wanted on Footfall"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Persona Non Grata: preparar o Warehouse ANTES de ir ao bar",
+   "details": "Antes de procurar Jae no bar, visite o Warehouse no nordeste dos Shadow Quarters. Ele estará vazio, mas você pode destruir estrategicamente os barris venenosos e explosivos — isso remove os perigos do combate que acontecerá ali depois (Wanted on Footfall). Preparação opcional, mas só possível antes da luta.",
+   "quest": "Persona Non Grata",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Persona+Non+Grata"
+  },
+  {
+   "order": 2,
+   "type": "interaction",
+   "title": "Bar Adeptus Amasecus: check de Tech-Use e baú",
+   "details": "No bar Adeptus Amasecus (a bordo da nave Martyr's Endurance, ao norte): perto dos trabalhadores há um skill check de Tech-Use que dá XP; descendo as escadas à esquerda há um baú com cargo; explore as salas laterais para mais interações e loot.",
+   "quest": "Persona Non Grata",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Persona+Non+Grata"
+  },
+  {
+   "order": 3,
+   "type": "quest_step",
+   "title": "Persona Non Grata: cena da Jae perto de Octaviana",
+   "details": "Siga para leste, perto de Octaviana, para disparar a cutscene em que Jae Heydari é ameaçada pelos capangas de Falco; ela mata dois atacantes e a errand termina. IMPORTANTE: aceite ajudá-la (não recuse nem sugira execução) — só assim inicia 'Wanted on Footfall' e mantém Jae recrutável como companion. Com Commerce suficiente dá para negociar pagamento extra: Pain Blocker e Sharp Shot Stimulant.",
+   "quest": "Persona Non Grata",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Wanted+on+Footfall"
+  },
+  {
+   "order": 4,
+   "type": "interaction",
+   "title": "Gordei Skatov no bar: dicas de caches (Dreams and Stories)",
+   "details": "No bar encontra-se Gordei Skatov, arquiteto, que dá dicas das localizações das caches da quest Dreams and Stories e fornece o rumor 'Cache in the Old Bridge' (a ponte destruída dos Shadow Quarters pode conter uma cache dos construtores de Footfall). Segundo relatos de jogadores, ele pode ser recrutado após completar a quest.",
+   "quest": "Dreams and Stories",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Cache+in+the+Old+Bridge"
+  },
+  {
+   "order": 5,
+   "type": "item",
+   "title": "Cache in the Old Bridge: cache perto da entrada do Warehouse",
+   "details": "A cache do rumor 'Cache in the Old Bridge' fica perto da entrada do Warehouse dos Shadow Quarters (a mesma área da quest da Jae), no antigo túnel/ponte destruída. Jogadores relatam precisar de Awareness alta (~75) para encontrar o ponto de interação. Vasculhe com Tab ligado.",
+   "quest": "Cache in the Old Bridge",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Cache+in+the+Old+Bridge"
+  },
+  {
+   "order": 6,
+   "type": "quest_step",
+   "title": "Rot: emboscar a crew do Cinder (lado oeste)",
+   "details": "Com a quest Rot ativa (obtida falando com o Liege sobre a Anvers Gang), vá ao lado oeste/esquerdo dos Shadow Quarters: membros da gangue estarão incinerando um cadáver e não veem você — comece com uma emboscada. Cuidado com o líder Cinder e não agrupe companheiros: eles usam granadas cegantes. Saqueie o corpo (Ember/boss) para pegar 'Anvers' Note Left From Cinder's Crew', que revela a localização do esconderijo. Antes disso, as 'Anvers' Notes from the Atrium' (do líder derrotado na chegada) apontam para os Shadow Quarters.",
+   "quest": "Rot",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Rot"
+  },
+  {
+   "order": 7,
+   "type": "quest_step",
+   "title": "Rot: entrada do Dark Hideout perto do bar",
+   "details": "A nota do Cinder indica que o esconderijo da Anvers Gang fica perto do Adeptus Amasecus — o desvio (turn-off) é visível da entrada do bar. Siga o caminho marcado até a porta do Dark Hideout (ver arquivo dark-hideout para o interior).",
+   "quest": "Rot",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Rot"
+  },
+  {
+   "order": 8,
+   "type": "quest_step",
+   "title": "Where the Shadows: portão de quarentena (sudeste)",
+   "details": "No sudeste há uma seção fechada por quarentena. Falar com o Extermination Brigade Sergeant no portão inicia 'Where the Shadows Are Deepest of All' — ele exige permissão do Liege. No palácio, escolha uma das três abordagens: oferecer ajuda médica da sua nave (Iconoclast, +5 pontos), aceitar as baixas como preço da segurança (Dogmatic) ou impor sua autoridade de Rogue Trader. A zona só abre depois de completar um mundo-colônia principal (ex.: 'Reclaim What Was Lost' em Kiava Gamma) e retornar. Interior no arquivo quarantine-zone.",
+   "quest": "Where the Shadows Are Deepest of All",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Where+the+Shadows+Are+Deepest+of+All"
+  },
+  {
+   "order": 9,
+   "type": "quest_step",
+   "title": "Astray: caminho até o Cultists' Lair (norte)",
+   "details": "Da entrada dos Shadow Quarters: siga ao norte, depois noroeste por uma ponte de sucata, caminho linear ao norte descendo dois lances de escada e norte a partir do portão da quarentena até uma porta nos prédios à esquerda. Use Tab: a porta do covil tem contorno vermelho. Se estiver trancada, entre antes na casa próxima com marca de caveira branca e interaja com os símbolos de sol pintados no chão. Interior no arquivo cultists-lair.",
+   "quest": "Astray",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/astray-walkthrough-cultist-hideout-location-in-rogue-trader"
+  },
+  {
+   "order": 10,
+   "type": "interaction",
+   "title": "Elevador da zona quarentenada: Overseer com Servo-skull Swarm",
+   "details": "Segundo a wiki, é o Overseer com o Servo-skull Swarm que destranca o elevador para a zona quarentenada — procure-o quando for liberar o acesso.",
+   "quest": "Where the Shadows Are Deepest of All",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Footfall+Shadow+Quarters"
+  },
+  {
+   "order": 11,
+   "type": "item",
+   "title": "Pista de Dreams and Stories junto às janelas da doca / zona de quarentena",
+   "details": "Depois de achar a evidência inicial junto às janelas da doca, a pista seguinte de Dreams and Stories está DENTRO da zona de quarentena — leve pelo menos 1 Melta Charge e alguém com Demolition para o check (uma Melta Charge pode ser saqueada no cofre do Cultists' Lair). Sem isso, a cache fica inacessível naquela visita.",
+   "quest": "Dreams and Stories",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Footfall+Shadow+Quarters"
+  }
+ ]
+}

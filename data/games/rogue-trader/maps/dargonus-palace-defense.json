@@ -1,0 +1,101 @@
+{
+ "area_name": "Von Valancius Palace (Dargonus) - Drukhari Invasion",
+ "aliases": [
+  "Defesa de Dargonus",
+  "Blades in the Void - final",
+  "Palace under attack"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void",
+   "title": "Fextralife - Blades in the Void"
+  },
+  {
+   "url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Blades_in_the_Void",
+   "title": "Neoseeker - Blades in the Void Walkthrough"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "combat_tip",
+   "title": "Combate espacial: 1 cruzador + 2 destroyers Drukhari",
+   "details": "Ao voltar para o sistema Mundus Valancius (va IMEDIATAMENTE apos desarmar os explosivos no seu navio — demorar gera dialogo de baixas, sem consequencia mecanica), derrote um cruzador e dois destroyers Drukhari em combate de voidship antes de pousar.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 2,
+   "type": "quest_step",
+   "title": "Pouso: briefing com Clementia Werserian",
+   "details": "Monte o grupo antes de pousar (lutas seguidas pela frente). Clementia Werserian faz o briefing no acampamento; saqueie o crate ao lado do acampamento antes de avancar para a praca principal.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 3,
+   "type": "combat_tip",
+   "title": "Praca principal: embosque os Drukhari",
+   "details": "Os Drukhari na praca nao percebem sua presenca — voce pode armar emboscada atacando pelo centro e pelo flanco oeste. Cuidado com a armadilha no leste (nao da para desarmar sem iniciar combate) e a torreta a oeste (teste de Tech-Use desmonta).",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 4,
+   "type": "interaction",
+   "title": "Warden moribundo: salve-o para ganhar Protector of Faith",
+   "details": "Um warden moribundo esta sobre uma mina: teste de Awareness revela a mina e teste de Lore (Xenos) a desarma — o warden sobrevive e voce ganha o item Protector of Faith. Tambem na area: jet bike Reaver saqueavel (Tech-Use), warden morto com loot e duas minas para desativar no caminho (testes de Athletics).",
+   "quest": "Blades in the Void",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 5,
+   "type": "combat_tip",
+   "title": "Segunda area: Tazarra retorna — ative as torretas aliadas",
+   "details": "Tazarra volta com reforcos Drukhari. Um personagem com Logic alta pode ativar torretas de defesa via cogitator para apoiar a luta. Apos o combate: outra jet bike Reaver a oeste, corpo escondido com o Imperial Staff a leste (teste de Athletics) e equipamento Drukhari nos corpos.",
+   "quest": "Blades in the Void",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 6,
+   "type": "combat_tip",
+   "title": "Seu quarto: Achilleas Scalander vira aliado na luta",
+   "details": "Subindo as escadas (testes de Athletics nos dois lados rendem corpos com loot), no seu quarto voce enfrenta 4 Beastmasters — Achilleas Scalander luta do seu lado. Loot da sala: armas Drukhari nos corpos, cache escondido com Arsonist's Bracers na estante ao lado dos corpos, cofre na sacada com item de melee, teste opcional de Medicae no aristocrata e mais um teste de Awareness no quarto.",
+   "quest": "Blades in the Void",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 7,
+   "type": "combat_tip",
+   "title": "Sala do trono: batalha final contra os Drukhari",
+   "details": "Na sala do trono: um Warden morre apos o dialogo e ha duas armadilhas para contornar. Cutscene com Marazhai (ele escapa — voce o reencontra depois), entao acontece a batalha final da invasao. Saqueie todos os inimigos e o resto da sala do trono antes de sair.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 8,
+   "type": "quest_step",
+   "title": "Retorne a voidship: fim de Blades in the Void",
+   "details": "Voltar ao navio encerra a quest. Com World Shapers, Flame in the Dark e Blades in the Void completas, 'Reclaim What Was Lost' conclui e 'The Emperor and My Right' (coroacao, reta final do Ato 2) comeca ao abrir o mapa do Koronus Expanse.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Reclaim+What+Was+Lost"
+  }
+ ]
+}

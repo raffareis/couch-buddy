@@ -1,0 +1,60 @@
+{
+ "area_name": "Dark Hideout (Shadow Quarters)",
+ "aliases": [
+  "Anvers Hideout",
+  "Anvers Gang Hideout"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Rot",
+   "title": "Fextralife - Rot"
+  },
+  {
+   "url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Rot",
+   "title": "Neoseeker - Rot walkthrough (via busca; fetch bloqueado)"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Chegar ao Dark Hideout (quest Rot)",
+   "details": "Com a 'Anvers' Note Left From Cinder's Crew' em mãos (saqueada da crew do Cinder no oeste dos Shadow Quarters), siga o caminho marcado: o esconderijo fica perto do bar Adeptus Amasecus — o desvio é visível da entrada do bar. Entre pela porta do Dark Hideout.",
+   "quest": "Rot",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Rot"
+  },
+  {
+   "order": 2,
+   "type": "combat_tip",
+   "title": "Boss: Anvers Kingpin + gás tóxico (cogitator!)",
+   "details": "Lá dentro, o Anvers Kingpin conversa brevemente e DESLIGA a ventilação antes da luta, enchendo a arena de gás que aplica Toxin em todo o grupo a cada turno. Prioridade: avance até o cogitator que o Kingpin manipulou (elimine-o no caminho) e INTERAJA com o cogitator para religar a ventilação e limpar o gás. Composição inimiga: Kingpin + 1 Anver Arsonist excepcionalmente resistente, 1 Anver Instigator, 3 Anver Cutters, 2 Anver Bodyguards e 4 Anver Thugs. Leve antídotos/imunidade a Toxin se possível.",
+   "quest": "Rot",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Rot"
+  },
+  {
+   "order": 3,
+   "type": "item",
+   "title": "Recompensas: Anver Chainsword e Pirate's Scarf",
+   "details": "Ao vencer a gangue, a quest é concluída. Recompensas/loot: Anver Chainsword, Pirate's Scarf e XP. Saqueie todos os corpos e contêineres do esconderijo antes de sair.",
+   "quest": "Rot",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Rot"
+  },
+  {
+   "order": 4,
+   "type": "quest_step",
+   "title": "Reportar ao Liege Vladaym Tocara",
+   "details": "Depois de limpar o Dark Hideout, volte a Vladaym Tocara no palácio do Liege e conte o resultado — rende XP adicional substancial. (Esse mesmo diálogo é o workaround se 'Where the Shadows Are Deepest of All' bugar.)",
+   "quest": "Rot",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Rot"
+  }
+ ]
+}

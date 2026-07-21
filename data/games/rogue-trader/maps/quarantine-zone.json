@@ -1,0 +1,141 @@
+{
+ "area_name": "Quarantine Zone (Shadow Quarters)",
+ "aliases": [
+  "Quarantined Zone",
+  "Mutant's Lair",
+  "Mutants' Lair",
+  "FootfallSlums_MutantsLair",
+  "TaintedStreets"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Where+the+Shadows+Are+Deepest+of+All",
+   "title": "Fextralife - Where the Shadows Are Deepest of All"
+  },
+  {
+   "url": "https://www.ludo.guide/guide/warhammer-40k-rogue-trader/where-the-shadows-are-deepest-of-all-walkthrough-rog-j0r12k",
+   "title": "Ludo.guide - Where Shadows are Deepest Walkthrough"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Footfall+Shadow+Quarters",
+   "title": "Fextralife - Footfall Shadow Quarters"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Dreams+and+Stories",
+   "title": "Fextralife - Dreams and Stories"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Acesso: permissão do Liege + progresso da campanha",
+   "details": "A zona de quarentena (sudeste dos Shadow Quarters) só abre depois de: (1) falar com o Extermination Brigade Sergeant no portão; (2) obter permissão do Liege Vladaym Tocara (diálogo com opção Iconoclast +5 ao defender os moradores); e (3) completar 'Reclaim What Was Lost' em Kiava Gamma e retornar a Footfall. Aí o portão estará aberto.",
+   "quest": "Where the Shadows Are Deepest of All",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40k-rogue-trader/where-the-shadows-are-deepest-of-all-walkthrough-rog-j0r12k"
+  },
+  {
+   "order": 2,
+   "type": "interaction",
+   "title": "Sobreviventes barricados (Awareness 36)",
+   "details": "Desça as escadas de metal: um check de Awareness 36 revela um ponto de interação (lupa) na parede junto à tubulação, entre duas escadarias na parte baixa — uma porta para um ponto de observação com moradores barricados/escondidos. Você decide salvá-los ou eliminá-los.",
+   "quest": "Where the Shadows Are Deepest of All",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40k-rogue-trader/where-the-shadows-are-deepest-of-all-walkthrough-rog-j0r12k"
+  },
+  {
+   "order": 3,
+   "type": "item",
+   "title": "Bens escondidos ao longo das paredes (Awareness)",
+   "details": "Explore rente às paredes com um personagem de Awareness alta: há mercadorias/loot ocultos espalhados pela zona que só aparecem com os checks.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Where+the+Shadows+Are+Deepest+of+All"
+  },
+  {
+   "order": 4,
+   "type": "item",
+   "title": "Pyromaniac Boots (caixa grande junto ao cano de esgoto)",
+   "details": "As Pyromaniac Boots estão numa caixa grande junto ao cano de esgoto, no beco ao pé das escadas (seção norte). Item fácil de perder — cheque o beco antes de avançar para o covil.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40k-rogue-trader/where-the-shadows-are-deepest-of-all-walkthrough-rog-j0r12k"
+  },
+  {
+   "order": 5,
+   "type": "item",
+   "title": "Pista do Old Tunnel Cache (atrás do esgoto bloqueado)",
+   "details": "Perto das Pyromaniac Boots, atrás do esgoto bloqueado, há a pista/clue do Old Tunnel Cache (ligada ao rumor Cache in the Old Bridge). Interaja para registrar.",
+   "quest": "Cache in the Old Bridge",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Where+the+Shadows+Are+Deepest+of+All"
+  },
+  {
+   "order": 6,
+   "type": "item",
+   "title": "Toxic Knife (Awareness 69, sala do ventilador central)",
+   "details": "Na sala com o ventilador central, um check de Awareness 69 revela a Toxic Knife. Leve seu personagem de percepção mais alta.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Where+the+Shadows+Are+Deepest+of+All"
+  },
+  {
+   "order": 7,
+   "type": "interaction",
+   "title": "Entrada do Mutant's Lair (Awareness ~69)",
+   "details": "A entrada do covil dos mutantes fica na boca de um cano grande, no canto oposto ao ponto de observação, em frente à estrutura dilapidada central. Requer check de Awareness (~69, ícone de lupa) para descobrir e abrir o acesso.",
+   "quest": "Where the Shadows Are Deepest of All",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40k-rogue-trader/where-the-shadows-are-deepest-of-all-walkthrough-rog-j0r12k"
+  },
+  {
+   "order": 8,
+   "type": "combat_tip",
+   "title": "Combate contra os mutantes: toxinas e explosões",
+   "details": "Suba as escadas saqueando a caixa no caminho e entre devagar na câmara seguinte — andando lentamente dá para emboscar antes de serem detectados. CUIDADO: mutantes comuns explodem ao morrer liberando nuvem tóxica que aplica o debuff 'Shadow Quarters Disease' (evite matar em melee de perto); Mutant Infectors lançam 'Pus Grenade' em área; variantes fortes têm ~5x a vida e aplicam Toxin no melee. Táticas: distribuir Adaptive Antidot (imunidade a Toxin, mas -10 Toughness), Warriors para taunt + granadas em área, Bounty Hunters nos alvos duros, priorizar Infectors, posicionar dos dois lados da cobertura na entrada.",
+   "quest": "Where the Shadows Are Deepest of All",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.ludo.guide/guide/warhammer-40k-rogue-trader/where-the-shadows-are-deepest-of-all-walkthrough-rog-j0r12k"
+  },
+  {
+   "order": 9,
+   "type": "item",
+   "title": "Loot do covil: Imperial Pride, Pack of Reagents, Stimm, Intoxicating Elixir",
+   "details": "Após o combate: Imperial Pride (arma bolter de duas mãos) num cadáver inimigo; Pack of Reagents numa caixa perto dos mutantes; e uma sacola DEBAIXO do barraco/shed dentro do covil com Stimm x3 e Intoxicating Elixir.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Where+the+Shadows+Are+Deepest+of+All"
+  },
+  {
+   "order": 10,
+   "type": "item",
+   "title": "Cache de Dreams and Stories: Melta Charge + Demolition",
+   "details": "A cache de Dreams and Stories da zona de quarentena exige ter pelo menos 1 Melta Charge no inventário e passar num check de Demolition para limpar os escombros/túnel. Sem a Melta Charge não há como pegar — traga uma (há uma no cofre do Cultists' Lair da quest Astray).",
+   "quest": "Dreams and Stories",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Dreams+and+Stories"
+  },
+  {
+   "order": 11,
+   "type": "quest_step",
+   "title": "Concluir: reportar ao Liege (workaround de bug)",
+   "details": "Elimine todos os mutantes e reporte a conclusão para ganhar bastante XP. Se o objetivo bugar/falhar no journal, fale com o Liege e escolha: 'I did what you could not - I found and neutralised the Anvers agitator-in-chief.' para fechar a quest corretamente.",
+   "quest": "Where the Shadows Are Deepest of All",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Where+the+Shadows+Are+Deepest+of+All"
+  }
+ ]
+}

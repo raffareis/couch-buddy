@@ -1,0 +1,86 @@
+{
+ "area_name": "Gutted Voidship",
+ "aliases": [
+  "nave destripada",
+  "Navigator Cassini",
+  "Pulvis Platinum",
+  "DaringHeirGuttedShip"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Gutted+Voidship",
+   "title": "Fextralife - Gutted Voidship"
+  },
+  {
+   "url": "https://steamcommunity.com/app/2186680/discussions/0/6171701036704320007/",
+   "title": "Steam Community - Gutted Voidship / Cassini"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Reclaim+What+Was+Lost",
+   "title": "Fextralife - Reclaim What Was Lost (comentarios)"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Localizacao: derelito explorravel no Ato 2",
+   "details": "A Gutted Voidship e uma nave a deriva tomada por caos, mutacao e desespero. Fextralife situa no sistema Pulvis Platinum; relatos de jogadores citam Mu-Rho 79 — procure o POI 'Gutted Voidship' ao explorar os sistemas do Ato 2. Vale visitar antes da coroacao.",
+   "quest": null,
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Gutted+Voidship"
+  },
+  {
+   "order": 2,
+   "type": "combat_tip",
+   "title": "Mutantes: NAO mate Mutated Enforcers em melee",
+   "details": "A primeira secao tem varios mutantes. Mutated Enforcers soltam uma nuvem toxica ao morrer — mate-os A DISTANCIA para nao envenenar seus personagens de melee.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Gutted+Voidship"
+  },
+  {
+   "order": 3,
+   "type": "item",
+   "title": "Cofre trancado: Staff of House Cassini + Distraction Cape",
+   "details": "Na primeira secao, um cofre trancado contem a Staff of House Cassini (cajado 2H forte para psykers) e a Distraction Cape. Na base das escadas ha um crate de carga. Outros itens do mapa: Eye of the Righteous, Expeditionary Footwear, medalhas, tanques de combustivel e componentes.",
+   "quest": null,
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Gutted+Voidship"
+  },
+  {
+   "order": 4,
+   "type": "interaction",
+   "title": "Sala extra: teste de Athletics nos escombros",
+   "details": "Ha uma sala extra que exige um teste de Athletics para limpar os escombros — nao saia sem checar (relatado nos comentarios de Reclaim What Was Lost).",
+   "quest": null,
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Reclaim+What+Was+Lost"
+  },
+  {
+   "order": 5,
+   "type": "decision",
+   "title": "Navigator Cassini: RESGATE-O para ganhar um Navigator no bridge",
+   "details": "Na segunda secao, proteja o navigator e a tripulacao restante dos ultimos mutantes. Poupando-o: Dogmatic = efeito permanente Conviction of Faith; Iconoclast = recruta o navigator (6-10 Navigator's Insights, 100% de carga de People, XP); origem Navy Officer = ordena que ele sirva na sua ponte (6 Navigator's Insights). Ele aparece como tripulante na ponte pelo resto do jogo — um dos poucos NPCs resgataveis com presenca permanente.",
+   "quest": null,
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Gutted+Voidship"
+  },
+  {
+   "order": 6,
+   "type": "decision",
+   "title": "Se o navigator morrer: decisao sobre a reliquia",
+   "details": "Caso o navigator morra, resta decidir o destino da reliquia protegida: destruir via pericia em demolicao; garantir o artefato (rende Torment Bracelets na rota Heretical); ou check de Lore (Warp) para entender o que e.",
+   "quest": null,
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Gutted+Voidship"
+  }
+ ]
+}

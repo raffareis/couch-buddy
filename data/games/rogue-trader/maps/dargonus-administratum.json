@@ -1,0 +1,126 @@
+{
+ "area_name": "Administratum (Dargonus)",
+ "aliases": [
+  "Administratum Office",
+  "Administratum de Dargonus",
+  "Master of Seals",
+  "AdministratumPalace"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Mercatum+Tabula+Officiale",
+   "title": "Fextralife - Mercatum Tabula Officiale"
+  },
+  {
+   "url": "https://www.gameskinny.com/tips/warhammer-40k-rogue-trader-how-to-complete-mercatum-tabula-officiale/",
+   "title": "GameSkinny - How to Complete Mercatum Tabula Officiale"
+  },
+  {
+   "url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Mercatum_Tabula_Officiale",
+   "title": "Neoseeker - Mercatum Tabula Officiale Walkthrough"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Leve a Jae no grupo e siga o Servo-Skull",
+   "details": "A area do Administratum em Dargonus e o palco da quest de companion da Jae, 'Mercatum Tabula Officiale' (vem depois de 'A Lucrative Opportunity'). Ao entrar no Administratum, um Servo-Skull instrui voce a segui-lo ate a sala do fundo. Nao ha combate nesta quest inteira; Abelard, Cassia e Heinrix oferecem dialogos extras se estiverem no grupo.",
+   "quest": "Mercatum Tabula Officiale",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Mercatum_Tabula_Officiale"
+  },
+  {
+   "order": 2,
+   "type": "interaction",
+   "title": "Fale com o Master of Seals e assine os documentos",
+   "details": "Na sala ao fundo fica o Master of Seals, que nao tem tempo nem para o Rogue Trader: voce tera que preencher um requerimento como qualquer cidadao comum. Assine os documentos apresentados no dialogo — e burocracia proposital, faz parte da quest. Ele exige dois selos oficiais ('Worn Seals'): um em Janus e outro em Dargonus, sem dizer onde estao.",
+   "quest": "Mercatum Tabula Officiale",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.gameskinny.com/tips/warhammer-40k-rogue-trader-how-to-complete-mercatum-tabula-officiale/"
+  },
+  {
+   "order": 3,
+   "type": "quest_step",
+   "title": "Selo 1: Atilius Quint, em Janus",
+   "details": "Viaje ate o Governor Vyatt's Estate em Janus e fale com Atilius Quint (patio central, perto da estatua). Peca um selo para certificar o Mercatum Tabula Officiale. As opcoes de dialogo nao afetam a quest, mas dao XP bonus e pontos de conviccao (a combinacao Iconoclast + Persuasion funciona bem).",
+   "quest": "Mercatum Tabula Officiale",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Mercatum+Tabula+Officiale"
+  },
+  {
+   "order": 4,
+   "type": "quest_step",
+   "title": "Selo 2: Clementia Werserian, no Von Valancius Palace",
+   "details": "No palacio em Dargonus, suba as escadas ate a sala principal e fale com Clementia Werserian perto do trono. Ela revela que o selo de Dargonus esta perdido ha mais de 25 anos. Se voce ja explorou o Ancient Bunker, entrega o selo na hora; caso contrario, precisa achar o local Oasis V no sistema Nameless Star (guias tambem citam procurar nos sistemas Forgotten Twins e Langrenn's Belt — o selo confirmado esta no bunker do Nameless Star).",
+   "quest": "Mercatum Tabula Officiale",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Mercatum+Tabula+Officiale"
+  },
+  {
+   "order": 5,
+   "type": "quest_step",
+   "title": "Ancient Bunker (Oasis V): corrida contra o gas toxico",
+   "details": "O bunker esta cheio de gas toxico — e uma sequencia cronometrada: abra o portao frontal, corra ate a sala da caldeira, interaja com a valvula, pegue a valvula reserva na sala adjacente, troque-a na caldeira, reative a valvula e reinicie a ventilacao no cogitator. Ha MUITO loot pelo complexo; um dos containers (sala pequena do lado esquerdo) contem o Worn Seal de Dargonus.",
+   "quest": "Mercatum Tabula Officiale",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Mercatum+Tabula+Officiale"
+  },
+  {
+   "order": 6,
+   "type": "combat_tip",
+   "title": "Emboscada de 4 torretas na saida do bunker",
+   "details": "Ao sair do Ancient Bunker, 4 torretas automatizadas surgem e atacam. Prepare o grupo antes de sair (posicione atras de cobertura e foque uma torreta por vez).",
+   "quest": "Mercatum Tabula Officiale",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Mercatum+Tabula+Officiale"
+  },
+  {
+   "order": 7,
+   "type": "decision",
+   "title": "Fila de peticionarios: escolhas que moldam a Jae",
+   "details": "De volta ao Administratum com os dois selos, voce enfrenta a fila de milhares de peticionarios. As decisoes aqui definem o arco da Jae (caminho 'Independent' vs 'Shadow Baroness'). Senhora nobre: dar educacao/titulo de corte (pode custar 1 Profit Factor) = Independent; indiferenca = Shadow Baroness. Velho: comprar a liberdade da neta (custa 1 Profit Factor) ou liberta-la = Independent; ordenar servidao = Shadow Baroness. Senhora rica: nao afeta a Jae (sugerir fe como sentido da vida encerra bem).",
+   "quest": "Mercatum Tabula Officiale",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Mercatum+Tabula+Officiale"
+  },
+  {
+   "order": 8,
+   "type": "interaction",
+   "title": "Segunda fase da fila: use os truques da Jae",
+   "details": "Na segunda espera, opcoes: esperar pacientemente ou 'We need to move forward faster. Use your tricks' — com Persuasion e a Yrliet como distracao, voce avanca mais rapido. Depois convenca o homem de bom coracao a deixar voce passar e assine o certificado na janela do representante.",
+   "quest": "Mercatum Tabula Officiale",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.gameskinny.com/tips/warhammer-40k-rogue-trader-how-to-complete-mercatum-tabula-officiale/"
+  },
+  {
+   "order": 9,
+   "type": "item",
+   "title": "Recompensa: Battle-Scarred Cape + festa da Jae",
+   "details": "Entregue o documento certificado ao Master of Seals e depois fale com a Jae na voidship para concluir. Recompensa: Battle-Scarred Cape e XP. Inicia o errand 'Jae Heydari's Celebration' (festa no navio — importante para o romance/arco dela).",
+   "quest": "Mercatum Tabula Officiale",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Mercatum+Tabula+Officiale"
+  },
+  {
+   "order": 10,
+   "type": "quest_step",
+   "title": "Timing: conclua ainda no Ato 2",
+   "details": "Jogadores no forum da Steam alertam que quests de companion do Ato 2 devem ser concluidas antes da coroacao final ('The Emperor and My Right') para nao arriscar falha silenciosa na transicao de ato. Como nao ha combate, da para resolver rapido assim que tiver os dois selos.",
+   "quest": "Mercatum Tabula Officiale",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://steamcommunity.com/app/2186680/discussions/0/4038104598694778810/"
+  }
+ ]
+}

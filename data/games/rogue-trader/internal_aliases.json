@@ -1,0 +1,18 @@
+{
+ "atrium": ["FootfallAtrium", "FootfallPalace"],
+ "companion-quests-act2": ["PascalEvent_Chapter2", "CassiaRoom", "NavigatorRoom", "VoidshipOfficersDeck", "VoidshipBridge", "CommandCenter"],
+ "cultists-lair": ["TaintedStreets_CultistsHideout"],
+ "quarantine-zone": ["FootfallSlums_MutantsLair", "TaintedStreets"],
+ "space-exploration-act2": ["KoronusExpanseMap", "EE_BottomlessPit", "EE_DestroyedBlackShip", "EE_KhraveXenosRuins", "EE_SpaceScavengers", "EE_WarWorldBunker"],
+ "crematory": ["Footfall_Crematory"],
+ "dargonus-administratum": ["AdministratumPalace"],
+ "dargonus-palace": ["RogueTraderPalacePeaceful", "RoguerTraderPalaceIndoorPeaceful"],
+ "gutted-voidship": ["DaringHeirGuttedShip"],
+ "janus-governor-estate": ["AgriWorldTown", "AgriWorldTown_Indoor"],
+ "janus-jungle": ["AgriWorldJungle"],
+ "kiava-gamma": ["ForgeWorld"],
+ "shadow-quarters": ["FootfallSlums_Canteena"],
+ "slums-sewers": ["Footfall_LowerSection", "FootfallSlums"],
+ "void-dock-alpha-rho": ["FootFallDock"],
+ "warehouse": ["Footfall_Warehouse"]
+}

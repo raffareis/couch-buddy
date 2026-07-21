@@ -1,0 +1,81 @@
+{
+ "area_name": "Grantis - Governor's Camp",
+ "aliases": [
+  "Palatium Stellos system",
+  "distress call",
+  "Marazhai encounter"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void",
+   "title": "Fextralife - Blades in the Void"
+  },
+  {
+   "url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Blades_in_the_Void",
+   "title": "Neoseeker - Blades in the Void Walkthrough"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Sinal de socorro no sistema Palatium Stellos",
+   "details": "Durante Blades in the Void voce recebe um sinal de socorro de Grantis. Se o planeta ainda nao foi explorado, escaneie os planetas do sistema Palatium Stellos para localiza-lo, entao pouse no Governor's Camp.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 2,
+   "type": "quest_step",
+   "title": "Caminho linear: saqueie tudo no percurso",
+   "details": "O mapa e linear. Siga o caminho saqueando corpos e containers ate o confronto no acampamento.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 3,
+   "type": "combat_tip",
+   "title": "Marazhai executa o governador: luta inevitavel",
+   "details": "Voce flagra o Drukhari Marazhai e suas forcas executando o governador. TODAS as opcoes de dialogo levam ao combate — nao ha rota pacifica. Marazhai escapa no final (ele reaparece no assalto ao palacio de Dargonus e no Ato 3). Foque nos beastmasters e feras primeiro; loot de equipamento Drukhari nos corpos.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 4,
+   "type": "item",
+   "title": "Corpo escondido: Armour of the Undaunted + Deadly Precision",
+   "details": "Atras da ultima casa ha um corpo escondido (teste de Awareness) com a Armour of the Undaunted e o item Deadly Precision. Facil de perder — cheque atras de todas as construcoes.",
+   "quest": "Blades in the Void",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 5,
+   "type": "item",
+   "title": "Bau trancado perto do governador: Unsleeping Eye",
+   "details": "O bau trancado perto do corpo do governador contem o Unsleeping Eye. MISSABLE: se voce sair do mapa sem abrir, nao ha retorno.",
+   "quest": "Blades in the Void",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 6,
+   "type": "quest_step",
+   "title": "Proximo passo: Mysterious Object em Last Chance of Cyrene",
+   "details": "Apos Grantis, o rastro Drukhari leva ao 'Mysterious Object' no sistema Last Chance of Cyrene (rota de warp entre Pelium Solitas e Litoribum Maledicta e criada automaticamente se nao existir).",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  }
+ ]
+}

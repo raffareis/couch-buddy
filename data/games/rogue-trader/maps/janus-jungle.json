@@ -1,0 +1,137 @@
+{
+ "area_name": "Janus - Jungle / Rebel Base",
+ "aliases": [
+  "Janus forest",
+  "selva de Janus",
+  "base rebelde",
+  "webway gate",
+  "AgriWorldJungle"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/World+Shapers",
+   "title": "Fextralife - World Shapers"
+  },
+  {
+   "url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/World_Shapers",
+   "title": "Neoseeker - World Shapers Walkthrough"
+  },
+  {
+   "url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/janus-walkthrough-choices-yrliet-and-boss-strategies",
+   "title": "Gamer Guides - Janus Walkthrough"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Cruze a ravina pela arvore caida: dois caminhos",
+   "details": "Apos cruzar a ravina pela arvore caida, o caminho bifurca. O da direita e opcional (loot e lutas extras); o da esquerda avanca a quest.",
+   "quest": "World Shapers",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/World_Shapers"
+  },
+  {
+   "order": 2,
+   "type": "combat_tip",
+   "title": "Caminho direito (opcional): emboscada + Alpha Lacerax",
+   "details": "No caminho da direita voce pode emboscar um acampamento rebelde (2 lutas). No final, emboscada de 3 Janusian Lacerax + 1 Alpha Lacerax — bichos rapidos de melee; lute em area aberta, mantenha os atiradores atras e foque o Alpha. Crates guardados por armadilhas no caminho.",
+   "quest": "World Shapers",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/janus-walkthrough-choices-yrliet-and-boss-strategies"
+  },
+  {
+   "order": 3,
+   "type": "combat_tip",
+   "title": "Caminho esquerdo: rebeldes + chegada dos Aeldari",
+   "details": "No caminho da esquerda, derrote o segundo grupo rebelde; Aeldari chegam no meio da batalha. Se Yrliet estiver recrutada, ela explica a presenca Aeldari.",
+   "quest": "World Shapers",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/World+Shapers"
+  },
+  {
+   "order": 4,
+   "type": "item",
+   "title": "Cofre com Ergo Boots: 4 armadilhas em sequencia",
+   "details": "Ao norte da base rebelde, quatro armadilhas consecutivas (checks de Perception/Demolition) guardam um cofre trancado com as Ergo Boots. Facil de passar direto — vale o desvio.",
+   "quest": "World Shapers",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/World+Shapers"
+  },
+  {
+   "order": 5,
+   "type": "quest_step",
+   "title": "Ponte para as ruinas: rebeldes escravizados e o portal webway",
+   "details": "Desative duas armadilhas na ponte (check opcional de Awareness). Nas ruinas, rebeldes enfeiticados e Aeldari tentam ativar um portal da webway.",
+   "quest": "World Shapers",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/World+Shapers"
+  },
+  {
+   "order": 6,
+   "type": "decision",
+   "title": "DECISAO GRANDE: o destino de Janus (lutar ou ceder aos Aeldari)",
+   "details": "Opcoes: (1) Lutar contra os Aeldari — apos vencer, os rebeldes libertos ficam a sua merce e Yrliet entra permanentemente no grupo se poupada; ha dialogo Iconoclast/Heretical para trazer Yrliet ao seu lado mesmo lutando. (2) Dogmatic: 'humanos so serao governados por humanos'. (3) Iconoclast: paz — entregar o controle aos Aeldari. (4) Heretical (requer Heretical): humanos e Aeldari florescem juntos. Qualquer opcao de ceder aos Aeldari IMPEDE apoiar a governadora Vyatt depois.",
+   "quest": "World Shapers",
+   "missable": true,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/World+Shapers"
+  },
+  {
+   "order": 7,
+   "type": "combat_tip",
+   "title": "Boss: Muaran — separe o grupo por causa do Eldritch Storm",
+   "details": "Se lutar: Muaran, o lider Aeldari, usa Eldritch Storm (AOE forte). Espalhe os personagens para minimizar o dano de area; elimine os warlocks/atiradores de apoio primeiro. Apos a vitoria existe a opcao de matar Yrliet — evite se quiser mante-la.",
+   "quest": "World Shapers",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/World+Shapers"
+  },
+  {
+   "order": 8,
+   "type": "item",
+   "title": "Loot escondido: Wraithborne Necklace",
+   "details": "Loot escondido na selva: Wraithborne Necklace (+10 Agility/Perception; equipavel apenas por Asuryani/Drukhari — util para Yrliet ou Marazhai depois).",
+   "quest": "World Shapers",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/World+Shapers"
+  },
+  {
+   "order": 9,
+   "type": "decision",
+   "title": "Volta a mansao: cuidado com a conversa da corrupcao",
+   "details": "Volte de shuttle a mansao. Se a governadora Vyatt esta corrompida e Heinrix/Argenta NAO estao no grupo, EVITE discutir a corrupcao (ou permita-a) para ela sobreviver e render o bonus de +3 Profit Factor; caso contrario ela morre pelos guardas ou por voce. No pilar direito ha uma vela que abre a sala do panico escondida (passagem com armadilha).",
+   "quest": "World Shapers",
+   "missable": true,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/World+Shapers"
+  },
+  {
+   "order": 10,
+   "type": "combat_tip",
+   "title": "Luta final: coven Slaaneshi — mate a Maid of Honour rapido",
+   "details": "Combate final na mansao contra um coven Slaaneshi. A Maid of Honour invoca daemonettes e aumenta a Veil Degradation — elimine-a primeiro. No corpo da governadora (se morta): Signet Ring (+10 Persuasion) e Needle Pistol.",
+   "quest": "World Shapers",
+   "missable": false,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/World+Shapers"
+  },
+  {
+   "order": 11,
+   "type": "decision",
+   "title": "DECISAO: suprimentos para Footfall",
+   "details": "Encerrando a quest: Iconoclast = enviar provisoes a Footfall (+5 Profit Factor, ate +8 com bonus; presente de Calligos Winterscale na coroacao — Eye of Hecaton); Dogmatic = deixar Footfall passar fome (permite recrutar Incendia Chorda como aliada depois); Heretical = enviar carga profanada (+5 PF e presente). Isso tambem resolve automaticamente a quest 'Hunger's Hand'. Recompensa geral: XP, 3 Mobile Extractium e Janus vira colonia administravel.",
+   "quest": "World Shapers",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/World+Shapers"
+  }
+ ]
+}

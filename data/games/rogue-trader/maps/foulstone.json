@@ -1,0 +1,61 @@
+{
+ "area_name": "Foulstone",
+ "aliases": [
+  "shrine world",
+  "Trinnitos system",
+  "colonia Foulstone"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Foulstone",
+   "title": "Fextralife - Foulstone"
+  },
+  {
+   "url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/koronus-expanse-exploration/colony/foulstone-colony-choices-and-location-rogue-trader",
+   "title": "Gamer Guides - Foulstone Colony Choices and Location"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Onde fica e o que e",
+   "details": "Foulstone e um shrine world subdesenvolvido no sistema Trinnitos, entre Janus e Footfall. Populacao dominada pela Ecclesiarchy e ordens religiosas menores (incluindo a Order of the Hammer). Disponivel como colonia extra no Ato 2.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Foulstone"
+  },
+  {
+   "order": 2,
+   "type": "decision",
+   "title": "MISSABLE: evite as escolhas Hereticas no evento de Vox Master Vigdis",
+   "details": "A aquisicao de Foulstone passa por um evento com Vox Master Vigdis e um book event associado. Escolher as opcoes Dogmatic ou Iconoclast abre Foulstone como colonia; escolher a linha HERETICAL tranca a colonizacao no Ato 2 (o mundo volta a ficar acessivel apenas no Ato 4). Se voce quer a colonia extra cedo, nao siga a linha heretica nesse evento.",
+   "quest": null,
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/koronus-expanse-exploration/colony/foulstone-colony-choices-and-location-rogue-trader"
+  },
+  {
+   "order": 3,
+   "type": "quest_step",
+   "title": "Quests associadas: The Naviica e A New Ruler",
+   "details": "Duas quests se conectam a Foulstone: 'The Naviica' e 'A New Ruler'. Elas envolvem a politica religiosa local e a escolha de quem governa o mundo-santuario apos a anexacao.",
+   "quest": "A New Ruler",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Foulstone"
+  },
+  {
+   "order": 4,
+   "type": "item",
+   "title": "Projetos de colonia Tier 1-2 recomendados",
+   "details": "Melhores projetos iniciais de Foulstone: 'For Saint Drusus!' (+2 Security + arma), 'Touched by Holiness' (requer Profit Factor >= 20; +2 Efficiency), 'Good Tidings' (arma + 2 Profit Factor). Tiers avancados dao armas unicas como Accuser of Sin e Epiphany, alem de reputacao com faccoes religiosas (Drusians).",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Colony+Management"
+  }
+ ]
+}

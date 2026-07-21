@@ -1,0 +1,126 @@
+{
+ "area_name": "Voidship Lower Decks - Void Shadows (DLC) Act 2 Arc",
+ "aliases": [
+  "Freight Line",
+  "Officers' Deck",
+  "Voidship Crypt",
+  "Plasma Drive Chambers",
+  "Heriokh's Rim",
+  "genestealer cult"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Void+Shadows",
+   "title": "Fextralife - Void Shadows DLC"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/A+Card+Inverted",
+   "title": "Fextralife - A Card Inverted"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Ablution+in+Blood",
+   "title": "Fextralife - Ablution in Blood"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Aberration's+Lair",
+   "title": "Fextralife - Aberration's Lair"
+  },
+  {
+   "url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/Void_Shadows",
+   "title": "Neoseeker - Void Shadows"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Contexto do DLC no Ato 2",
+   "details": "Com o DLC Void Shadows, a voidship ganha 7 areas novas (Voidship Shrine, Astropathic Chapel, Freight Line, Officers' Deck, Voidship Crypt, Plasma Drive Chambers etc.) e a companion Kibellah (Death Cult Assassin), recrutada ainda no Ato 1 em 'To Become the Flagship's Blood'. No Ato 2 o arco investiga um culto genestealer infiltrado na nave. IMPORTANTE: nas investigacoes, escolha opcoes como 'vou me envolver pessoalmente' — delegar a subordinados (ex.: Saurback) pula puzzles, loot e conteudo.",
+   "quest": "Void Shadows",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Void+Shadows"
+  },
+  {
+   "order": 2,
+   "type": "quest_step",
+   "title": "A Card Inverted (fase 1): jogue com a Kibellah no Plasma Drive",
+   "details": "Voce controla a Kibellah para expor os seguidores de Nemesite nas Plasma Drive Chambers: (1) plante rumores falando com Stain no cubiculo superior direito (opcoes de Persuasion, Coercion ou Medicae); (2) arme a armadilha localizando 'Whip' no corredor — deixe-o se afastar e derrame o liquido para o norte; (3) identifique os cumplices em dialogo longo com checks de Awareness e Lore (Warp). Salve antes e otimize o equipamento da Kibellah.",
+   "quest": "A Card Inverted",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/A+Card+Inverted"
+  },
+  {
+   "order": 3,
+   "type": "decision",
+   "title": "A Card Inverted (fase 2): Confessor Adalbert e o novo lider da fe",
+   "details": "O tarot da Kibellah aponta o Confessor Adalbert como lider da rebeliao. Combate no Shrine (deixe um sobrevivente para interrogar). Depois, escolha o novo chefe da fe da nave — recompensa PERMANENTE de voidship: membro da tripulacao = Blessed Shields (+10% escudos em todos os lados); Ecclesiarchy = Righteous Fervor (torpedos/strike craft mais rapidos); Bloodspun Web = Merciless Salvos (+chance de critico da nave); Heretical (requer ter visitado Dargonus) = Zealous Speed (+1 velocidade).",
+   "quest": "A Card Inverted",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/A+Card+Inverted"
+  },
+  {
+   "order": 4,
+   "type": "combat_tip",
+   "title": "A Card Inverted (final): emboscada de Nemesite no Officers' Deck",
+   "details": "Aguarde o relatorio do enforcer; a emboscada de Nemesite e rebeldes ocorre no Officers' Deck. Com ~metade da vida ele invoca dois Aberrants do lado oposto — deixe alguem de guarda atras. Loot: dois stub revolvers unicos no corpo de Nemesite. Encerra com conversa com a Kibellah na ponte.",
+   "quest": "A Card Inverted",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/A+Card+Inverted"
+  },
+  {
+   "order": 5,
+   "type": "quest_step",
+   "title": "Ablution in Blood: investigacao do assassinato no Officers' Deck",
+   "details": "Side quest do Ato 2: lidere PESSOALMENTE a investigacao no Officers' Deck (delegar aos Saurback pula puzzles e loot). Inspecione o corpo mutilado, ache o synth-coat ensanguentado, cheque os logs do master cogitator, interrogue Gwedon e conclua no refeitorio — o verdadeiro culpado e Hrotko. No caminho: teste de Tech-Use na esfera armilar desbloqueia a quest 'The Stars that Guide Us' (loot: Master Duellist's Gloves, Breacher's Armour, Dream's Infinity, Secrets of the Forerunner).",
+   "quest": "Ablution in Blood",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Ablution+in+Blood"
+  },
+  {
+   "order": 6,
+   "type": "decision",
+   "title": "Ablution in Blood: protecao do ritual do Choirmaster Weisz",
+   "details": "Fale com o Choirmaster Weisz e escolha a protecao do ritual: contratar psyker de Winterscale (-3 Profit Factor, gratis com origem Crime Lord); usar suas proprias habilidades telepaticas; designar Idira ou Vistenza Vyatt; ou forcar o inicio (inimigos MAIS FORTES na batalha do ritual). Depois, proteja o Choirmaster durante a luta. Nota: permitir que Einrich e seu cla se armem gera inimigos mais fortes na quest 'Void Shadows' (Ato 4).",
+   "quest": "Ablution in Blood",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Ablution+in+Blood"
+  },
+  {
+   "order": 7,
+   "type": "combat_tip",
+   "title": "Ablution in Blood (final): invada a Voidship Crypt",
+   "details": "Rastreie os conspiradores nas Plasma Drive Chambers e invada a Voidship Crypt para confrontar o Magus do culto. Recompensas do arco: Backpack With Armour-Piercing Ammo, Tarnished Breacher's Aquila, habilidade Master of Interrogation e Lady Theodora's Immaculacy (condicional).",
+   "quest": "Ablution in Blood",
+   "missable": false,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Ablution+in+Blood"
+  },
+  {
+   "order": 8,
+   "type": "combat_tip",
+   "title": "Aberration's Lair: destrua a estacao Heriokh's Rim (combate espacial)",
+   "details": "O Magus confessa que os aberrantes usaram a estacao comercial Heriokh's Rim (sistema Pillars of Viridice) para infiltrar a flagship. Objetivo: arrasar a estacao em combate de voidship. Ela tem multiplas torretas e lanca voidcrafts — venha com a nave bem equipada e DESTRUA O GERADOR DE ESCUDO primeiro: reduz o dano das torretas em 50%.",
+   "quest": "Aberration's Lair",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Aberration's+Lair"
+  },
+  {
+   "order": 9,
+   "type": "quest_step",
+   "title": "Side quests menores do DLC no Ato 2",
+   "details": "Outras quests do DLC que rodam no Ato 2 na voidship: 'The Lowest Walk of Life' (Freight Line, tratar os low-deckers influencia o arco da Kibellah), 'Ritual of Binding' e 'Rituals of Upper Deck' (soiree no Officers' Deck — bug conhecido: a mascara some do inventario se voce romancear a Kibellah durante o evento), 'Troubling Confessions', 'A Cure for a Rash', 'The Scream', 'An Engagement in the Crypt' e 'The Stars that Guide Us'. O clima do arco culmina na quest 'Void Shadows' apenas no Ato 4 (chefe: the Sire).",
+   "quest": "Void Shadows",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Void+Shadows"
+  }
+ ]
+}

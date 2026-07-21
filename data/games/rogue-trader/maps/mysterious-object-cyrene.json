@@ -1,0 +1,71 @@
+{
+ "area_name": "Last Chance of Cyrene - Mysterious Object & Ship Defense",
+ "aliases": [
+  "Xeno-Artifact",
+  "defesa do plasma drive",
+  "boarding Drukhari"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void",
+   "title": "Fextralife - Blades in the Void"
+  },
+  {
+   "url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Blades_in_the_Void",
+   "title": "Neoseeker - Blades in the Void Walkthrough"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Investigue o Mysterious Object",
+   "details": "No sistema Last Chance of Cyrene, voe ate o Mysterious Object e escaneie: e um Xeno-Artifact. A exploracao do interior oferece skill checks opcionais que dao XP bonus — vale fazer todos.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 2,
+   "type": "combat_tip",
+   "title": "Emboscada espacial: 3 + 1 naves Drukhari",
+   "details": "Combate de voidship contra tres naves Drukhari; uma QUARTA aparece depois do primeiro turno — nao gaste todos os cooldowns na abertura. E uma emboscada planejada pelos raiders.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 3,
+   "type": "combat_tip",
+   "title": "Abordagem: defenda o plasma drive",
+   "details": "Drukhari abordam sua nave perto do plasma drive. Voce escolhe a composicao do grupo antes da luta — leve seus melhores. Repila o boarding party e siga ao reator para desarmar os explosivos plantados.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 4,
+   "type": "decision",
+   "title": "Tripulante moribundo: +5 de conviccao",
+   "details": "Um oficial moribundo alucina. Escolhas (+5 pontos de conviccao cada): Iconoclast = deixa-lo morrer em paz na alucinacao; Heretical = forcar o sofrimento continuar; Dogmatic = executa-lo como herege.",
+   "quest": "Blades in the Void",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 5,
+   "type": "quest_step",
+   "title": "Desarme os explosivos, saqueie e corra para Dargonus",
+   "details": "Desarme os explosivos no reator, saqueie a area e volte a ponte. Dargonus esta sob ataque: viaje IMEDIATAMENTE — atrasar so muda o dialogo (mais baixas relatadas), sem consequencia mecanica, mas o clima narrativo pesa. Segue a defesa do palacio (ver arquivo dargonus-palace-defense).",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  }
+ ]
+}

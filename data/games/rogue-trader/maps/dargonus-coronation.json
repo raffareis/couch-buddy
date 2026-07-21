@@ -1,0 +1,125 @@
+{
+ "area_name": "Von Valancius Palace (Dargonus) - Coronation",
+ "aliases": [
+  "The Emperor and My Right",
+  "Coroacao",
+  "fim do Ato 2"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/The+Emperor+and+My+Right",
+   "title": "Fextralife - The Emperor and My Right"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Game+Progress+Route",
+   "title": "Fextralife - Game Progress Route"
+  },
+  {
+   "url": "https://gamefaqs.gamespot.com/ps5/369358-warhammer-40000-rogue-trader/faqs/82192/chapter-2-reclaiming-what-was-lost",
+   "title": "GameFAQs - Chapter 2: Reclaiming What Was Lost"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "decision",
+   "title": "PONTO DE NAO-RETORNO: termine tudo do Ato 2 antes",
+   "details": "'The Emperor and My Right' encerra o Ato 2. Antes de ir a Dargonus para a cerimonia, conclua: quests de companion (Mercatum Tabula Officiale, Stranger Among Her Own, Dark Echelons, Aeldari in Distress, Secrets of the Cult, Classified Information), exploracao de sistemas (Gutted Voidship, Ancient Bunker, POIs), projetos de colonia desejados e compras em Footfall.",
+   "quest": "The Emperor and My Right",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Game+Progress+Route"
+  },
+  {
+   "order": 2,
+   "type": "decision",
+   "title": "Vigdis pergunta: que festividades organizar",
+   "details": "Ao abrir o mapa apos Reclaim What Was Lost, Vox Master Vigdis pergunta sobre a celebracao: Iconoclast = alimentar os pobres e distribuir celulas de combustivel (+3 conviccao Iconoclast); Dogmatic = executar corruptos OU oracoes e demonstracoes de fe; Heretical = distribuir amasec e combate de servos; Neutro = deixar o povo decidir.",
+   "quest": "The Emperor and My Right",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/The+Emperor+and+My+Right"
+  },
+  {
+   "order": 3,
+   "type": "decision",
+   "title": "DECISAO GRANDE: 2 companions para a cerimonia = bonus permanente de colonia",
+   "details": "Escolha ate dois companions para acompanha-lo; cada um da bonus PERMANENTE por colonia pelo resto do jogo: Yrliet = +6 xenotech por colonia; Pasqal = +2 Efficiency e varios recursos; Jae = +3000 reputacao Kasballica por colonia; Kibellah (DLC) = -1 Complacency e +2 Security. Escolha com calma — nao da para mudar depois.",
+   "quest": "The Emperor and My Right",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/The+Emperor+and+My+Right"
+  },
+  {
+   "order": 4,
+   "type": "decision",
+   "title": "Final secreto: ritual de Nomos com Pasqal",
+   "details": "Se 'Classified Information' foi completada e Pasqal esta com voce, ocorre uma conversa sobre o espirito do navio (Nomos). Para manter a elegibilidade ao final secreto do jogo, ACEITE o ritual e nao traia o espirito da nave. Mais tarde, na recepcao, fale tambem com o servitor misterioso no canto superior direito das camaras.",
+   "quest": "The Emperor and My Right",
+   "missable": true,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/The+Emperor+and+My+Right"
+  },
+  {
+   "order": 5,
+   "type": "quest_step",
+   "title": "Cerimonia: discurso ao povo e juramento",
+   "details": "Fale com o Master of Ceremonies para iniciar. O discurso ao povo tem 4 tons (Dogmatic: 'Praise the Emperor; evil will burn!'; Iconoclast: 'Fear not; you are all my charges'; Heretical: 'You have no ruler but me'; Pratico: prosperidade compartilhada). O juramento em si e opcao unica obrigatoria.",
+   "quest": "The Emperor and My Right",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/The+Emperor+and+My+Right"
+  },
+  {
+   "order": 6,
+   "type": "interaction",
+   "title": "Recepcao no patio: interacoes e conversas que TODAS tem efeito",
+   "details": "No patio: tanque Leman Russ (teste de Lore Imperium), Drukhari cativo (Lore Xenos) e estande de tiro. Grupo do Abelard: estude os convidados (Logic), aceite congratulacoes (ganha Severed Hand, Coordinate Oracle e +1 Efficiency), pergunte sobre a discussao de xenos (pode recrutar Vicent Gaprak para a colonia) e fale com o parente jovem do Abelard (teste de Perception desbloqueia dialogo usado depois na quest 'Blood Ties' dele). Grupo do Heinrix: testes com Toriana e Macharius sobem reputacao com Gaprak e Sauerback.",
+   "quest": "The Emperor and My Right",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/The+Emperor+and+My+Right"
+  },
+  {
+   "order": 7,
+   "type": "decision",
+   "title": "Calligos Winterscale: Eye of Hecaton se voce alimentou Footfall",
+   "details": "Converse com os outros Rogue Traders, Vorten e Calligos Winterscale (dialogo com Vorten via Perception ajuda a quest 'Hunting Grounds' depois). Se voce enviou comida a Footfall no fim de World Shapers, Winterscale oferece um presente: aceitar = item Eye of Hecaton; recusar via Dogmatic ('Destroy this xenos creation') = +4 conviccao Dogmatic.",
+   "quest": "The Emperor and My Right",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/The+Emperor+and+My+Right"
+  },
+  {
+   "order": 8,
+   "type": "decision",
+   "title": "Inquisidor Calcazar: interrogatorio decide seu anel",
+   "details": "Nas camaras, o Inquisidor Xavier Calcazar cobra explicacoes sobre Janus, Kiava Gamma e Dargonus. Cada resposta 'concorda' ou 'discorda' dele. 0 discordancias = Black Signet of the Inquisition (melhor anel); 1 = Scarlet Signet; 2+ = White Signet. Respostas seguras: admitir os crimes de Vistenza, afirmar disposicao de purgar Kiava Gamma completamente (ou confirmar purificacao se feita), comparar Dargonus aos encontros de Saint Drusus (Lore Imperium) e priorizar a seguranca civil (se destruiu o cogitator).",
+   "quest": "The Emperor and My Right",
+   "missable": true,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/The+Emperor+and+My+Right"
+  },
+  {
+   "order": 9,
+   "type": "decision",
+   "title": "Resposta final a Calcazar: alianca no Ato 4 em jogo",
+   "details": "Com o Black Signet, um teste de Commerce permite exigir mais favor (+2 Complacency/Efficiency/Security). Jurar lealdade formal, aceitar graciosamente ou (Dogmatic adherent) jurar o voto da Inquisicao (ganha Interrogator's Dagger) mantem a possibilidade de alianca com Calcazar no Ato 4. Recusar, exigir audiencia publica ou ataca-lo elimina a alianca (atacar inicia combate).",
+   "quest": "The Emperor and My Right",
+   "missable": true,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/The+Emperor+and+My+Right"
+  },
+  {
+   "order": 10,
+   "type": "quest_step",
+   "title": "Fim do Ato 2",
+   "details": "A quest e irrepetivel e todas as escolhas afetam permanentemente faccoes, elegibilidade ao final secreto e os rumos do Ato 4. Apos a cerimonia o jogo segue para os eventos que abrem o Ato 3 (viagem rumo a teia/Commorragh).",
+   "quest": "The Emperor and My Right",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/The+Emperor+and+My+Right"
+  }
+ ]
+}

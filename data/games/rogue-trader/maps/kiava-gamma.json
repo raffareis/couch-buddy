@@ -1,0 +1,171 @@
+{
+ "area_name": "Kiava Gamma - Manufactorum",
+ "aliases": [
+  "forge world",
+  "mundo-forja",
+  "Cranach system",
+  "Flame in the Dark",
+  "ForgeWorld"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Flame+in+the+Dark",
+   "title": "Fextralife - Flame in the Dark"
+  },
+  {
+   "url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/kiava-gamma-walkthrough-rogue-trader",
+   "title": "Gamer Guides - Kiava Gamma Walkthrough"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Secrets+of+the+Cult",
+   "title": "Fextralife - Secrets of the Cult"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Classified+Information",
+   "title": "Fextralife - Classified Information (cache de Kiava Gamma)"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "combat_tip",
+   "title": "Antes de pousar: frota de 5 naves do Chaos",
+   "details": "Kiava Gamma (sistema Cranach) e protegida por 5 naves caoticas que precisam ser derrotadas em combate de voidship. Leve o Heinrix no grupo de descida: a quest dele 'Secrets of the Cult' roda em paralelo aqui (e ignorar os objetivos dele FALHA a quest).",
+   "quest": "Flame in the Dark",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Flame+in+the+Dark"
+  },
+  {
+   "order": 2,
+   "type": "interaction",
+   "title": "5 Corrupted Servitors: mande-os seguir voce",
+   "details": "Na entrada do manufactorum ha um crate trancado (direita) e uma sala (esquerda) com 5 Corrupted Servitors nao-hostis, um crate de carga e dois cogitators (um com teste de Logic). Escolha 'Follow your default programming': os servitors LUTAM AO SEU LADO em todas as batalhas do mapa e esperam quando voce volta ao navio. E uma ajuda enorme — nao os desative.",
+   "quest": "Flame in the Dark",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/kiava-gamma-walkthrough-rogue-trader"
+  },
+  {
+   "order": 3,
+   "type": "decision",
+   "title": "Magos e o protocolo 39-42: emboscada dos dois jeitos",
+   "details": "Um magos pede que voce cumpra o protocolo 39-42. Se aceitar, voce e emboscado junto do magos e servitors volateis — e uma concha derrama escoria derretida no grupo antes da luta (dano inicial). Se recusar, o combate comeca na hora contra servitors que detonam em sequencia: mate-os a distancia para que as explosoes danifiquem os inimigos adjacentes, nao voce.",
+   "quest": "Flame in the Dark",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Flame+in+the+Dark"
+  },
+  {
+   "order": 4,
+   "type": "quest_step",
+   "title": "Andar superior: cogitator esquerdo baixa a ponte",
+   "details": "Apos derrotar os dois tech-priests e servitors, suba pelo elevador leste, use o terminal ao norte, desca e suba pelo outro elevador ao norte. No andar superior, use o cogitator ESQUERDO para baixar a ponte elevada. Explore o segundo andar para os objetivos de Secrets of the Cult antes de voltar pela ponte.",
+   "quest": "Flame in the Dark",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/kiava-gamma-walkthrough-rogue-trader"
+  },
+  {
+   "order": 5,
+   "type": "decision",
+   "title": "Secrets of the Cult: data-vault e a confianca do Heinrix",
+   "details": "No data-vault subterraneo (quest do Heinrix): tratar o Lexmechanic com misericordia (Iconoclast) ganha a confianca do Heinrix; tortura (Dogmatic) gera desconfianca. Mesmo padrao com as abominacoes. Se ele confia em voce, ele quer DESTRUIR o cogitator herege (voce pode concordar ou convence-lo do contrario); se desconfia, ele quer USA-LO e nao muda de ideia sem conflito (ha ate opcao de ataca-lo). Depois, derrote o daemon resultante. Loot: Stabilizer Bracers em crate trancado perto dos cogitators. A decisao sobre o cogitator reaparece no interrogatorio do Inquisidor Calcazar na coroacao.",
+   "quest": "Secrets of the Cult",
+   "missable": true,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Secrets+of+the+Cult"
+  },
+  {
+   "order": 6,
+   "type": "quest_step",
+   "title": "Preparacao da arena de Delphim: wagon + parede rachada",
+   "details": "Antes de enfrentar o Fabricator-Censor Cubis Delphim (dialogo nao importa, ele invoca inimigos de qualquer jeito): suba a escada esquerda, abra a porta esquerda, DESARME a armadilha perto do cogitator, use-o para baixar a ponte de Delphim e saqueie o crate do canto. Use uma Melta Charge na parede rachada, passe um teste de Athletics, e no cogitator da sala passe Tech-Use escolhendo '[Awaken the cogitator's machine spirit]' — um vagao atropela e elimina parte dos inimigos da arena.",
+   "quest": "Flame in the Dark",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Flame+in+the+Dark"
+  },
+  {
+   "order": 7,
+   "type": "decision",
+   "title": "Tech-priest moribundo: traga o Pasqal para ganhar o Servo-Skull",
+   "details": "Na lateral esquerda da arena ha um tech-priest morrendo. Opcoes: acabar com o sofrimento; opcao exclusiva do Pasqal = ganha o item Pict-Recorder Servo-Skull; Dogmatic+Persuasion; ou duas opcoes Heretical. Ha tambem uma escada no canto noroeste levando a outro crate.",
+   "quest": "Flame in the Dark",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Flame+in+the+Dark"
+  },
+  {
+   "order": 8,
+   "type": "quest_step",
+   "title": "Ponte com armadilhas: use SO o caminho da esquerda",
+   "details": "A regiao das pontes e pesadamente armadilhada. NAO use as pontes da direita — atravesse apenas pela esquerda, onde as armadilhas sao gerenciaveis.",
+   "quest": "Flame in the Dark",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Flame+in+the+Dark"
+  },
+  {
+   "order": 9,
+   "type": "item",
+   "title": "Plataforma circular: 3 caminhos (cache, False Information, Classified Information)",
+   "details": "Na plataforma giratoria: caminho ESQUERDO requer o rumor 'Cache on Kiava Gamma' e baixa uma ponte para 5 crates com Master-Crafted Power Maul e Flamer Digi-Weapon; caminho DIREITO completa a quest False Information; caminho a FRENTE contem o segundo cache secreto de Classified Information: na sala trancada com cogitator, use Melta Charge para revelar a porta secreta, pegue a valvula no sistema de vagoes ao sul (teste de Athletics), manipule os freios do vagao, entre na sala, desvie das armadilhas do chao e interaja com o Data-Furnace.",
+   "quest": "Classified Information",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Classified+Information"
+  },
+  {
+   "order": 10,
+   "type": "decision",
+   "title": "Chaos Marine pregando: Dogmatic-Follower ganha +1 AP PERMANENTE",
+   "details": "Subindo as escadas, um Chaos Space Marine prega para 6 cultistas. Com conviccao Dogmatic (rank Follower), a opcao de orar contra ele concede o efeito PERMANENTE 'Pray Against' (+1 Action Point) — um dos melhores buffs do jogo. Alternativas: ouvir o sermao ou atacar direto. Depois da luta, use o cogitator adjacente para erguer as vigas de ferro e cuidado com duas armadilhas finais na base.",
+   "quest": "Flame in the Dark",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/kiava-gamma-walkthrough-rogue-trader"
+  },
+  {
+   "order": 11,
+   "type": "combat_tip",
+   "title": "Boss: Fabricator-Censor Cubis Delphim + Forgefiends",
+   "details": "Luta final: Delphim, um Forgefiend e technomats corrompidos; um SEGUNDO Forgefiend entra no meio da batalha (mata alguns technomats ao chegar). Com Heretical-Follower, '[Dominate the metallic beast]' faz o segundo Forgefiend lutar por voce. O melee de Delphim atinge todos ao redor de um lado — nao agrupe personagens junto dele. Drops: Shifting Combi-Tool e [C-Delfim Pattern] Omnissian Axe.",
+   "quest": "Flame in the Dark",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Flame+in+the+Dark"
+  },
+  {
+   "order": 12,
+   "type": "decision",
+   "title": "Destino do Forgefiend dominado",
+   "details": "Se dominou o Forgefiend: leva-lo ao navio (Heretical) permite PULAR encontros de Warp nas viagens — mas todos os companions exceto Idira exigem sua destruicao (Dogmatic: destruir o Daemon Engine). Escolha entre utilidade pratica e reputacao/pureza.",
+   "quest": "Flame in the Dark",
+   "missable": true,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Flame+in+the+Dark"
+  },
+  {
+   "order": 13,
+   "type": "quest_step",
+   "title": "Saida: visao de Uralon the Cruel",
+   "details": "No elevador de saida, Uralon the Cruel aparece mentalmente tentando voce a profanar seu Warrant of Trade. Ha 6 opcoes de dialogo; nenhuma tem consequencia mecanica — escolha por roleplay.",
+   "quest": "Flame in the Dark",
+   "missable": false,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Flame+in+the+Dark"
+  },
+  {
+   "order": 14,
+   "type": "decision",
+   "title": "Destino de Kiava Gamma (todas dao 3 Mobile Extractium)",
+   "details": "Decisao final sobre a restauracao do mundo-forja: Dogmatic = aumenta a reputacao da familia Gaprak; Iconoclast = restauracao rapida sem expurgos excessivos; Heretical (Follower) = ganha Howler Cannons (arma de voidship). Todas as rotas dao 3 Mobile Extractium. A resposta sobre o expurgo reaparece no interrogatorio de Calcazar na coroacao (dizer que purgou/purgara tudo agrada o Inquisidor).",
+   "quest": "Flame in the Dark",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Flame+in+the+Dark"
+  }
+ ]
+}

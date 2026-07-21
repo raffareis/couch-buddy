@@ -1,0 +1,77 @@
+{
+ "area_name": "Colony Management - Act 2",
+ "aliases": [
+  "colonias",
+  "colony projects",
+  "Janus colony",
+  "Dargonus colony",
+  "Foulstone colony"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Colony+Management",
+   "title": "Fextralife - Colony Management"
+  },
+  {
+   "url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/koronus-expanse-exploration/colony/janus-colony-project-choices-rogue-trader",
+   "title": "Gamer Guides - Janus Colony Project Choices"
+  },
+  {
+   "url": "https://gamefaqs.gamespot.com/ps5/369358-warhammer-40000-rogue-trader/faqs/82192/colonies",
+   "title": "GameFAQs - Colonies"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Colonias disponiveis no Ato 2",
+   "details": "No Ato 2 voce administra: Janus (apos World Shapers), Kiava Gamma (apos Flame in the Dark), Dargonus (capital, ganha aba de projetos) e Foulstone (extra, se evitou a linha heretica no evento do Vigdis). Vheabos VI entra para o protetorado via Blades in the Void. As metricas sao Profit Factor, Security, Efficiency e Complacency; projetos dao recursos, reputacao de faccao e pontos de conviccao.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Colony+Management"
+  },
+  {
+   "order": 2,
+   "type": "decision",
+   "title": "Janus: projetos Tier 1-2 recomendados",
+   "details": "Janus (agri-world) rende consumiveis e provisoes: 'Chem-Princes' = 4 Chemicals + estimulantes reabastecidos automaticamente; 'Sophocracy' = +1 Efficiency, +4 Provisions; 'The Reaping' = 6 Provisions, +2 Efficiency. Escolha conforme sua necessidade de cargo para trocas.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Colony+Management"
+  },
+  {
+   "order": 3,
+   "type": "decision",
+   "title": "Dargonus: Bastion + Society of Cartographers destravam quest",
+   "details": "Na aba de Dargonus, complete 'Bastion' e 'Society of Cartographers': alem dos bonus, revelam o herege Janris Danrok e desbloqueiam a quest 'The Three Sorrowful Phalanges' (recompensas Tainted Phylactery e Amulet of the Pauper Princes). O 6o evento de colonia de Dargonus destroi um dos cultos genestealer dessa quest.",
+   "quest": "The Three Sorrowful Phalanges",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/The+Three+Sorrowful+Phalanges"
+  },
+  {
+   "order": 4,
+   "type": "interaction",
+   "title": "Eventos de colonia: leve o conselho dos companions",
+   "details": "Apos alguns projetos concluidos, surgem colony events com escolhas de dialogo e custos de recurso. Seguir o conselho do companion presente costuma dar recompensa melhor ou custo menor. Resolva os eventos assim que aparecerem — acumular eventos pendentes trava a fila de projetos.",
+   "quest": null,
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Colony+Management"
+  },
+  {
+   "order": 5,
+   "type": "decision",
+   "title": "Bonus permanentes da coroacao",
+   "details": "Lembre: a escolha dos 2 companions para a cerimonia de coroacao (The Emperor and My Right) da bonus PERMANENTE por colonia (Yrliet +6 xenotech, Pasqal +2 Efficiency + recursos, Jae +3000 rep Kasballica, Kibellah -1 Complacency/+2 Security). Planeje junto com a estrategia de colonias.",
+   "quest": "The Emperor and My Right",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/The+Emperor+and+My+Right"
+  }
+ ]
+}

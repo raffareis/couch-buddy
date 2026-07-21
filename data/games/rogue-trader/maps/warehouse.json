@@ -1,0 +1,80 @@
+{
+ "area_name": "Warehouse (Shadow Quarters)",
+ "aliases": [
+  "Footfall Warehouse",
+  "Jae's Warehouse",
+  "Secret Warehouse",
+  "Footfall_Warehouse"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Wanted+on+Footfall",
+   "title": "Fextralife - Wanted on Footfall"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Cultists'+Lair",
+   "title": "Fextralife - Warehouse (página exibe conteúdo do Warehouse)"
+  },
+  {
+   "url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Wanted_on_Footfall",
+   "title": "Neoseeker - Wanted on Footfall (via busca; fetch bloqueado)"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Persona+Non+Grata",
+   "title": "Fextralife - Persona Non Grata"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Encontrar o grupo da Jae no Warehouse (nordeste)",
+   "details": "A entrada do Warehouse fica na porção mais a nordeste dos Footfall Shadow Quarters. Depois de aceitar ajudar Jae Heydari no bar (fim de Persona Non Grata), desça ao warehouse para encontrá-la com Torra, Kor e o assistente dela e recuperar a carga.",
+   "quest": "Wanted on Footfall",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Wanted+on+Footfall"
+  },
+  {
+   "order": 2,
+   "type": "combat_tip",
+   "title": "Emboscada nos thugs: use os barris",
+   "details": "Os thugs/bandidos não detectam você de início — dá para armar emboscada. A área tem barris explosivos e tóxicos: comece atirando no barril com mais inimigos ao redor. Se você destruiu os barris antes (durante Persona Non Grata), a arena fica mais segura para o SEU grupo — escolha uma das estratégias, não as duas.",
+   "quest": "Wanted on Footfall",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Wanted+on+Footfall"
+  },
+  {
+   "order": 3,
+   "type": "decision",
+   "title": "Decisão com o Agente de Vladaym: destino da Jae",
+   "details": "Após o combate, um agente de Vladaym chega. Três opções: (1) abandonar Jae — você fica com a carga, mas Jae some PARA SEMPRE (perde a companion); (2) oferecer proteção pessoal — permite recrutá-la e abre o caminho 'Independent' dela; (3) declarar que a carga pertence à dinastia Von Valancius — permite recrutá-la e abre o caminho 'Shadow Baroness'. Recompensas: +1 Profit Factor base; +2 PF no total com Jae recrutada, além de desbloquear a quest 'A Lucrative Opportunity'.",
+   "quest": "Wanted on Footfall",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Wanted+on+Footfall"
+  },
+  {
+   "order": 4,
+   "type": "item",
+   "title": "Pair Holster (caixa empilhada no canto nordeste)",
+   "details": "Saqueie a caixa empilhada no canto nordeste do warehouse para pegar o Pair Holster — excelente acessório para pistolas burst-fire. É o item de equipamento notável do local.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Cultists'+Lair"
+  },
+  {
+   "order": 5,
+   "type": "item",
+   "title": "Caixa escondida (Awareness) e cargo espalhado",
+   "details": "Dentro do warehouse há vários contêineres de loot, incluindo uma caixa escondida que só aparece com um teste de Awareness bem-sucedido. A maior parte do loot é cargo (para o cargo hold); saqueie também todos os inimigos derrotados antes de sair.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Cultists'+Lair"
+  }
+ ]
+}

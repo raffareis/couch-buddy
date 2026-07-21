@@ -1,0 +1,86 @@
+{
+ "area_name": "Cultists' Lair (Shadow Quarters)",
+ "aliases": [
+  "Cultist Lair",
+  "Cultist Hideout",
+  "Heretic Hideout",
+  "TaintedStreets_CultistsHideout"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://gamerant.com/warhammer-wh40k-rogue-trader-astray-quest-guide-rewards/",
+   "title": "GameRant - How to Complete the Astray Quest"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Astray",
+   "title": "Fextralife - Astray"
+  },
+  {
+   "url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/astray-walkthrough-cultist-hideout-location-in-rogue-trader",
+   "title": "GamerGuides - Astray Walkthrough (via busca; fetch bloqueado)"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Encontrar a porta do covil (norte dos Shadow Quarters)",
+   "details": "Quest Astray (companion Argenta), após falar com Hieronymus Doloroso no Atrium. Na seção norte dos Shadow Quarters, use Tab para destacar objetos: a porta do covil tem contorno vermelho. Se estiver trancada, entre primeiro na casa próxima com a marca de caveira branca e interaja com os símbolos de sol pintados no chão.",
+   "quest": "Astray",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://gamerant.com/warhammer-wh40k-rogue-trader-astray-quest-guide-rewards/"
+  },
+  {
+   "order": 2,
+   "type": "interaction",
+   "title": "Corredor com 3 armadilhas",
+   "details": "O corredor de entrada tem 3 armadilhas (booby-traps) no caminho até a câmara ritual — desarme todas antes de avançar (checks de percepção/demolition conforme o personagem).",
+   "quest": "Astray",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://gamerant.com/warhammer-wh40k-rogue-trader-astray-quest-guide-rewards/"
+  },
+  {
+   "order": 3,
+   "type": "interaction",
+   "title": "Armário grande = porta secreta",
+   "details": "Interaja com o armário/cabinet grande à esquerda: é uma porta secreta que leva ao local do ritual onde os cultistas estão reunidos.",
+   "quest": "Astray",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://gamerant.com/warhammer-wh40k-rogue-trader-astray-quest-guide-rewards/"
+  },
+  {
+   "order": 4,
+   "type": "combat_tip",
+   "title": "Luta: Pink Horror e Cultist Leader",
+   "details": "Ao interromper o ritual, o cultista do meio se transforma num Pink Horror e Argenta abre fogo. Alvos prioritários: o Cultist Leader ao fundo (Plasma Pistol com dano em área) e o Pink Horror. O Pink Horror tem ataque AOE amplo ao redor de si — mantenha os personagens o mais separados possível no espaço apertado; ao cair, ele se divide em DOIS Blue Horrors mais fracos. Sala pequena favorece engajar de perto depois de eliminar o líder.",
+   "quest": "Astray",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/astray-walkthrough-cultist-hideout-location-in-rogue-trader"
+  },
+  {
+   "order": 5,
+   "type": "item",
+   "title": "Cofre trancado na sala anexa: Foehammer, Sororitas Boots, Melta Charge",
+   "details": "Na sala adicional após o combate há um cofre/baú trancado com: Ryza Pattern Foehammer (pistola), Sororitas Boots, Melta Charge (útil para a cache de Dreams and Stories na zona de quarentena!) e valiosos vendáveis. Dos inimigos: Plasma Pistol e itens de venda.",
+   "quest": "Astray",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://gamerant.com/warhammer-wh40k-rogue-trader-astray-quest-guide-rewards/"
+  },
+  {
+   "order": 6,
+   "type": "quest_step",
+   "title": "Depois: reportar a Doloroso e conversa com Argenta na nave",
+   "details": "Volte a Hieronymus Doloroso no Atrium para XP e +200 Reputation: Drusians. Mais tarde, na voidship, Argenta pede uma conversa privada na sala do Warrant of Trade — sua resposta define o arco dela em três caminhos: (1) apontar hubris/irresponsabilidade → talent Shadow of Death; (2) 'That's understandable...' → Sororitas Power Armour que auto-conjura War Hymn após Heroic Acts; (3) 'If you were the only one...' → Sororitas Power Armour com +5% crit chance/damage acumulativo por kill/crit (reseta ao errar). Escolha única.",
+   "quest": "Astray",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://gamerant.com/warhammer-wh40k-rogue-trader-astray-quest-guide-rewards/"
+  }
+ ]
+}

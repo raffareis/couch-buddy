@@ -1,0 +1,252 @@
+{
+ "area_name": "Footfall Atrium",
+ "aliases": [
+  "The Bazaar",
+  "Atrium",
+  "Liege's Palace",
+  "Liege's Residence",
+  "FootfallAtrium",
+  "FootfallPalace"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Footfall+Atrium",
+   "title": "Fextralife - Footfall Atrium"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Tattered+Spirit",
+   "title": "Fextralife - Tattered Spirit"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Underworld",
+   "title": "Fextralife - Underworld"
+  },
+  {
+   "url": "https://www.thegamer.com/warhammer-40000-rogue-trader-underworld-quest-walkthrough-guide/",
+   "title": "TheGamer - Complete Underworld Quest Walkthrough"
+  },
+  {
+   "url": "https://www.gamepressure.com/warhammer-40000-rogue-trader/how-to-complete-underworld/z211196",
+   "title": "Gamepressure - How to complete Underworld"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Astray",
+   "title": "Fextralife - Astray"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Cache+in+the+Former+Lantern",
+   "title": "Fextralife - Cache in the Former Lantern"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Dreams+and+Stories",
+   "title": "Fextralife - Dreams and Stories"
+  },
+  {
+   "url": "https://www.ludo.guide/guide/warhammer-40000-rogue-trader/tattered-spirit",
+   "title": "Ludo.guide - Footfall Walkthrough (Tattered Spirit)"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Ir ao palácio do Liege (saída sudoeste)",
+   "details": "Do Atrium, pegue a saída sudoeste para o Liege's Palace. Ao entrar, você presencia Jae Heydari discutindo com o Liege Vladaym Tocara — isso inicia automaticamente a errand 'Persona Non Grata' (encontrar a estranha caída em desgraça no bar Adeptus Amasecus, nos Shadow Quarters). Em seguida ocorre a longa conversa com o Liege.",
+   "quest": "Persona Non Grata",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Persona+Non+Grata"
+  },
+  {
+   "order": 2,
+   "type": "decision",
+   "title": "Diálogo com Vladaym Tocara: quests, rumores e convicção",
+   "details": "Esgote os tópicos com o Liege: (1) falar do ataque na doca e da Anvers Gang desbloqueia a quest 'Rot'; (2) perguntar sobre xenos dá os rumores 'Xenos on the Rampage' e 'Angels of the Emperor in the Expanse'; (3) falar do comércio de Footfall permite escolher uma resposta de convicção (Dogmatic/Iconoclast/Heretic, +3 pontos); (4) o pedido de ajuda com a fome inicia a quest 'Hunger's Hand'. Vladaym também é o merchant da Kasballican Auction.",
+   "quest": "Tattered Spirit",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Tattered+Spirit"
+  },
+  {
+   "order": 3,
+   "type": "decision",
+   "title": "Opção 'roubar o Liege' (+3 Profit Factor)",
+   "details": "Se você passar em TODOS os skill checks do diálogo com o Liege (ou tiver o triunfo Apex of Brilliance), aparece a opção: 'The payment will be unfair, as I will be robbing you blind. But you will remain in charge. Do we have a deal?'. Escolhê-la garante +3 Profit Factor ao concluir a linha de quests de Footfall. Missable se falhar nos checks.",
+   "quest": "Tattered Spirit",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Tattered+Spirit"
+  },
+  {
+   "order": 4,
+   "type": "combat_tip",
+   "title": "Saída do palácio: cena de Bastian Chorda e segunda luta",
+   "details": "Ao sair dos aposentos do Liege, Bastian Chorda aborda você oferecendo um acordo, mas é morto por thugs que atacam em seguida — combate inevitável. Com Idira no grupo você pode pré-posicionar os personagens. Dica: derrube Lanny Goggle-Eyed com ataques melee, avançando com Abelard.",
+   "quest": "Tattered Spirit",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Tattered_Spirit"
+  },
+  {
+   "order": 5,
+   "type": "decision",
+   "title": "Cena dos refugiados mutantes (Astray) — salvar ou não",
+   "details": "No Atrium, perto de Hieronymus Doloroso, refugiados mutantes são confrontados por instigadores. Se você não intervir, os refugiados morrem. Para salvá-los: teste de Coercion ou origem Commissar. Salvá-los permite falar com eles depois no Void Dock Alpha-Rho (escolha de convicção). Cena única — decisão permanente.",
+   "quest": "Astray",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Astray"
+  },
+  {
+   "order": 6,
+   "type": "interaction",
+   "title": "Hieronymus Doloroso: rumores, convicção e merchant Drusians",
+   "details": "Fale com Hieronymus Doloroso na plataforma elevada à esquerda. Fazer o sinal da Aquila (skill check) dá XP e +4 Dogmatic. O diálogo rende os rumores 'The Naviica', 'Lost in the Void' e 'Xenos on the Rampage' e várias chances de pontos de convicção. Ele pede para eliminar hereges nos Shadow Quarters (avança Astray, de Argenta). Diga que tem interesse em comerciar para desbloqueá-lo como merchant dos Drusians. Ao completar o pedido dele, volte para XP e +200 Reputation: Drusians.",
+   "quest": "Astray",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Astray"
+  },
+  {
+   "order": 7,
+   "type": "interaction",
+   "title": "Vendedor de mutantes no Bazaar",
+   "details": "No Atrium (o bazar de Footfall) há um vendedor de mutantes: comprar mutantes custa 2 Profit Factor e o vendedor reabastece na próxima visita. Compra puramente opcional — avalie se vale o custo de PF.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Footfall+Atrium"
+  },
+  {
+   "order": 8,
+   "type": "item",
+   "title": "Chartist's Pendant",
+   "details": "O acessório Chartist's Pendant pode ser saqueado no Footfall Atrium — vasculhe os contêineres do bazar ao explorar a área.",
+   "quest": null,
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Footfall+Atrium"
+  },
+  {
+   "order": 9,
+   "type": "quest_step",
+   "title": "Cache in the Former Lantern: altar dos devotos (nordeste)",
+   "details": "Saindo do prédio do governador (palácio do Liege), vire à esquerda: no nordeste do mapa há devotos rezando num altar — a Chapel of Saint Drusus, o 'antigo lampião' (turret) da catedral nunca construída. Interaja com o nicho para obter a pista. Isso resolve o rumor 'Cache in the Former Lantern' e abre a quest 'Dreams and Stories' (procurar mais caches por Footfall).",
+   "quest": "Cache in the Former Lantern",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Cache+in+the+Former+Lantern"
+  },
+  {
+   "order": 10,
+   "type": "quest_step",
+   "title": "Final de Dreams and Stories: cogitator 'Realizing design'",
+   "details": "Depois de coletar todas as pistas/caches (Void Dock junto às janelas + zona de quarentena dos Shadow Quarters), volte ao Atrium e interaja com o terminal/cogitator rotulado 'Realizing design' perto da estátua do fundador de Footfall. Recompensas: Focus Incense e Righteous Fury Cape. Dica: Gordei Skatov, arquiteto no bar dos Shadow Quarters, dá dicas das localizações e, segundo relatos, pode ser recrutado após a quest.",
+   "quest": "Dreams and Stories",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Dreams+and+Stories"
+  },
+  {
+   "order": 11,
+   "type": "quest_step",
+   "title": "Início de Underworld: Daggen no canto sudoeste",
+   "details": "No canto sudoeste do Atrium (descendo as escadas a oeste, passando a área de Hieronymus Doloroso), First Mate Daggen aborda você achando que é 'Fidelio'. Se chegou incógnito, pode manter a farsa ('Of course. I'm Fidelio' — rota B) ou se revelar; se chegou oficialmente, ele o reconhece como Rogue Trader (rota A). A escolha define todo o desenrolar do funeral do pirata Bellardo.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Underworld"
+  },
+  {
+   "order": 12,
+   "type": "interaction",
+   "title": "Funeral: examinar o caixão e o Book of Remembrance",
+   "details": "Na cerimônia, examine o corpo no caixão — Abelard identifica o morto 'Master Bellardo' como o pirata Jerrycan Denz. Teste de Lore (Imperium): +52 XP. Depois examine o Book of Remembrance no altar: há uma nota de Fidelio mencionando a palavra-chave 'repentance' (anote — é usada depois).",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://www.thegamer.com/warhammer-40000-rogue-trader-underworld-quest-walkthrough-guide/"
+  },
+  {
+   "order": 13,
+   "type": "interaction",
+   "title": "Funeral: amasec envenenado (Awareness)",
+   "details": "Passe num teste de Awareness perto das escadas de metal / mesa de bebidas para descobrir que o amasec servido está envenenado (+52 XP). Não beba.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://www.thegamer.com/warhammer-40000-rogue-trader-underworld-quest-walkthrough-guide/"
+  },
+  {
+   "order": 14,
+   "type": "interaction",
+   "title": "Funeral: entrevistar Chaplain, Adelia, Kas Bellardo e Daggen",
+   "details": "Fale com todos: o Chaplain (entre os postes de luz; Persuasion 15 para mentir que conhecia Bellardo, +52 XP; diga 'I wish to intervene in the matter of the inheritance' para virar parte interessada), Adelia (escondida atrás de uma caixa grande no canto superior esquerdo — fala dos 'dead eyes' que assombravam Denz), Kas Bellardo (perto do caixão, sobre a sucessão) e Daggen (junto ao pilar de ferro).",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://www.thegamer.com/warhammer-40000-rogue-trader-underworld-quest-walkthrough-guide/"
+  },
+  {
+   "order": 15,
+   "type": "quest_step",
+   "title": "CRÍTICO (rota Fidelio): falar com Adelia ANTES do Crematorium",
+   "details": "Se está se passando por Fidelio, fale com Adelia (atrás da caixa grande, canto superior esquerdo) ANTES de aceitar o pedido do Clerk de ir ao Crematorium. Isso é necessário para desbloquear o melhor final da quest (herança para Adelia). Se pular, o final ótimo fica indisponível.",
+   "quest": "Underworld",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Underworld"
+  },
+  {
+   "order": 16,
+   "type": "item",
+   "title": "AVISO: caixa na plataforma elevada é armadilha (rota Fidelio)",
+   "details": "Na rota Fidelio, NÃO saqueie a caixa na plataforma elevada do funeral — ela explode. Só é seguro saqueá-la depois de terminar a quest Underworld. Na rota Rogue Trader (A) ela pode ser saqueada normalmente.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Underworld"
+  },
+  {
+   "order": 17,
+   "type": "quest_step",
+   "title": "Rota A (Rogue Trader): resolver o mistério de Fidelio",
+   "details": "Volte ao Chaplain e escolha 'I would like to discuss what I've uncovered regarding the mysterious Fidelio'; discuta todas as opções (o navio 'Repentance' e a mulher). Com todas as pistas, a resposta correta é: 'It could be a name — the name of a ship, for example.'. Em seguida fale com o Servitor perto de Daggen e diga 'Repentance' — o servitor É Fidelio (um humano convertido, que legalmente não pode herdar). +154 XP.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "high",
+   "source_url": "https://www.gamepressure.com/warhammer-40000-rogue-trader/how-to-complete-underworld/z211196"
+  },
+  {
+   "order": 18,
+   "type": "quest_step",
+   "title": "Rota B (Fidelio): Clerk chama para o Crematorium",
+   "details": "Na rota Fidelio, um Clerk pede ajuda para recuperar um contêiner de implantes do forno do crematório de Footfall — errand 'Hidden in the Furnace' (porta ao norte do caixão). É uma armadilha planejada: você será trancado no forno e escapará pelos subterrâneos (ver arquivos crematory e slums-sewers), voltando ao funeral pelo Underworld warehouse.",
+   "quest": "Hidden in the furnace",
+   "missable": false,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Hidden+in+the+furnace"
+  },
+  {
+   "order": 19,
+   "type": "combat_tip",
+   "title": "Rota B: confronto final no funeral (14 inimigos)",
+   "details": "Ao retornar do subsolo ao funeral, todos os convidados ficam hostis (você pode dizer que não é Fidelio, mas não acreditam). Combate contra ~14 piratas; First Mate Daggen e Kas Bellardo são os mais fortes. Inimigos usam granadas cegantes — mantenha os companheiros espalhados. Derrotar Daggen e Kas dá +3 Profit Factor, com opção de execução.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Underworld"
+  },
+  {
+   "order": 20,
+   "type": "decision",
+   "title": "Decisão da herança (melhor final: Adelia)",
+   "details": "Escolha quem herda a fortuna de Denz Bellardo: você mesmo ou Adelia rendem o melhor resultado. Com rating Iconoclast Follower, dar a herança a Adelia (filha de Denz, no fundo da sala) dispara a cena em que Kas tenta fazê-la refém e Fidelio (o servitor, avô dela) a salva — Adelia e o Chaplain viram traders da sua rede, +4 Profit Factor (melhor recompensa) e o achievement 'Burning Inheritance'. Dar a Daggen ou Kas não traz benefício. Alternativa: atacar todos os piratas falha a quest, mas permite saquear todo mundo.",
+   "quest": "Underworld",
+   "missable": true,
+   "spoiler": "high",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Underworld"
+  }
+ ]
+}

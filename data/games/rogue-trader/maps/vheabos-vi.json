@@ -1,0 +1,85 @@
+{
+ "area_name": "Vheabos VI - Pits of Vheabos",
+ "aliases": [
+  "Mortus Acies system",
+  "arena Drukhari",
+  "Pits of Vheabos IV"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void",
+   "title": "Fextralife - Blades in the Void"
+  },
+  {
+   "url": "https://www.neoseeker.com/warhammer-40000-rogue-trader/walkthrough/Blades_in_the_Void",
+   "title": "Neoseeker - Blades in the Void Walkthrough"
+  },
+  {
+   "url": "https://steamcommunity.com/app/2186680/discussions/0/4339851902696763433/",
+   "title": "Steam Community - Blades in the Void Act 2 quest discussion"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "combat_tip",
+   "title": "Sistema Mortus Acies: frota Drukhari + scan do planeta",
+   "details": "Primeiro alvo de Blades in the Void. Derrote a pequena frota Drukhari em combate de voidship, depois escaneie o planeta para revelar Vheabos VI. Pouse em 'Pits of Vheabos'.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 2,
+   "type": "item",
+   "title": "Saqueie o perimetro antes da arena central",
+   "details": "Explore e saqueie a area ao redor antes de entrar na arena central, onde Tazarra espera. Ha um cache escondido num canto que exige teste de Awareness.",
+   "quest": "Blades in the Void",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 3,
+   "type": "decision",
+   "title": "Tazarra: converta os gladiadores escravizados para o seu lado",
+   "details": "Na arena, a Drukhari Tazarra comanda gladiadores escravizados ('Enthralled Gladiators'). Trocando provocacoes com ela surge uma opcao de Persuasion — e com origem Commissar ha a opcao '[Turn to the fighters in the arena] Do you truly wish to die at the xenos' behest?...' — que faz os gladiadores lutarem AO SEU LADO na batalha. Atacar direto ignora essa vantagem. Conviccao Dogmatic tambem ajuda nos checks.",
+   "quest": "Blades in the Void",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://steamcommunity.com/app/2186680/discussions/0/4339851902696763433/"
+  },
+  {
+   "order": 4,
+   "type": "combat_tip",
+   "title": "Batalha da arena",
+   "details": "Luta contra Tazarra e os Drukhari (ela foge no final — voce a reencontra na invasao de Dargonus). Com os gladiadores do seu lado a luta fica bem mais facil; sem eles, prepare-se para incubi e wracks agressivos de melee. Use o terreno da arena para afunilar.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 5,
+   "type": "decision",
+   "title": "Destino dos gladiadores sobreviventes (+5 conviccao + trofeus)",
+   "details": "Se os gladiadores lutaram com voce, decida o destino deles: Iconoclast = evacuar os sobreviventes (+5 conviccao, ganha trofeus); Dogmatic = servitorizacao forcada (+5 conviccao, ganha trofeus); Heretical = atacar os gladiadores; ou adiar a decisao. Os trofeus so existem se voce os aliou — missable.",
+   "quest": "Blades in the Void",
+   "missable": true,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Blades+in+the+Void"
+  },
+  {
+   "order": 6,
+   "type": "quest_step",
+   "title": "Depois: 3 warp jumps ate Silence of Mer-Segrit",
+   "details": "Ao sair de Vheabos VI, o objetivo seguinte de Blades in the Void manda fazer tres saltos de warp rumo ao sistema Silence of Mer-Segrit, disparando a side quest cronometrada 'Attack in the Silence of Mer-Segrit'. Vheabos VI tambem entra como colonia da dinastia mais adiante.",
+   "quest": "Blades in the Void",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Attack+in+the+Silence+of+Mer-Segrit"
+  }
+ ]
+}

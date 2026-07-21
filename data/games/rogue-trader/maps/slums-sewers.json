@@ -1,0 +1,107 @@
+{
+ "area_name": "Footfall Slums and Sewers (Lower Section)",
+ "aliases": [
+  "Slums",
+  "Sewers",
+  "Lower Section",
+  "Vagabonds' Den",
+  "Underworld Warehouse",
+  "Footfall_LowerSection",
+  "FootfallSlums"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Underworld",
+   "title": "Fextralife - Underworld"
+  },
+  {
+   "url": "https://www.thegamer.com/warhammer-40000-rogue-trader-underworld-quest-walkthrough-guide/",
+   "title": "TheGamer - Complete Underworld Quest Walkthrough"
+  },
+  {
+   "url": "https://www.gamepressure.com/warhammer-40000-rogue-trader/how-to-complete-underworld/z211196",
+   "title": "Gamepressure - How to complete Underworld"
+  },
+  {
+   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3107853237",
+   "title": "Steam - 100% Achievement Guide + DLC"
+  },
+  {
+   "url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/hidden-in-the-furnace-walkthrough-rogue-trader",
+   "title": "GamerGuides - Hidden in the Furnace (via busca; fetch bloqueado)"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Vagabundos apagam o fogo",
+   "details": "Ao cair do forno do Crematorium, você é recebido por Vagabonds amigáveis que apagam as chamas do grupo. Opções: dar esmolas (opcional), atacá-los (rende só 6 Knives — pouco recompensador) ou simplesmente seguir em frente. Esta favela subterrânea é a 'lower section' de Footfall.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Underworld"
+  },
+  {
+   "order": 2,
+   "type": "quest_step",
+   "title": "Rota de saída: leste, norte, leste até os esgotos",
+   "details": "Para sair da área dos vagabundos rumo aos esgotos: siga para leste, depois norte, depois leste novamente. Explore TUDO no caminho e abra todos os baús — a área não é revisitável facilmente depois da quest.",
+   "quest": "Underworld",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/hidden-in-the-furnace-walkthrough-rogue-trader"
+  },
+  {
+   "order": 3,
+   "type": "item",
+   "title": "Loot dos esgotos: Knuckle Guard e Fine Amasec",
+   "details": "Loot notável nos esgotos: Knuckle Guard (acessório) e Fine Amasec (escondido — requer teste de Awareness). Há também contêineres de cargo espalhados; vasculhe cada beco.",
+   "quest": "Underworld",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Underworld"
+  },
+  {
+   "order": 4,
+   "type": "decision",
+   "title": "Portão bloqueado: alguém mergulha no esgoto (-30 Fellowship)",
+   "details": "Um portão bloqueado exige que UM personagem atravesse/mergulhe na água contaminada para abrir a passagem, sofrendo -30 de Fellowship temporário. ACHIEVEMENT MISSABLE: escolha o PRÓPRIO Rogue Trader (main character) para desbloquear 'This Is a Job for the Lord Captain!'. Obs.: Eogunn (DLC) evita a penalidade completamente. Há também um trecho de travessia de dejetos com Athletics.",
+   "quest": "Underworld",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3107853237"
+  },
+  {
+   "order": 5,
+   "type": "quest_step",
+   "title": "Escadas para o Underworld Warehouse",
+   "details": "No fim dos esgotos, localize as escadas que sobem para um warehouse do Administratum (NÃO confundir com o warehouse da Jae nos Shadow Quarters). É a rota de volta à superfície e ao funeral.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Underworld"
+  },
+  {
+   "order": 6,
+   "type": "combat_tip",
+   "title": "Combate no warehouse: Clerks e Servitors",
+   "details": "No warehouse você confronta o Clerk que armou a cilada: combate inevitável contra ~7 inimigos (Clerks e Servitors; Commissars têm diálogo adicional, mas a luta acontece de qualquer jeito). Os inimigos usam granadas cegantes — mantenha os companheiros espalhados. Saqueie tudo, incluindo um Stimulant Injector.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Underworld"
+  },
+  {
+   "order": 7,
+   "type": "quest_step",
+   "title": "Saída: retorno ao funeral no Atrium",
+   "details": "Do warehouse, saia de volta à área do funeral no Atrium — todos os piratas presentes ficarão hostis (confronto final de Underworld; ver arquivo atrium, passos 19-20, para a luta e a decisão da herança).",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://www.thegamer.com/warhammer-40000-rogue-trader-underworld-quest-walkthrough-guide/"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "area_name": "Crematory",
+ "aliases": [
+  "Crematorium",
+  "Footfall Crematory",
+  "The Furnace",
+  "Footfall_Crematory"
+ ],
+ "act": 2,
+ "sources": [
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Underworld",
+   "title": "Fextralife - Underworld"
+  },
+  {
+   "url": "https://roguetrader.wiki.fextralife.com/Hidden+in+the+furnace",
+   "title": "Fextralife - Hidden in the furnace"
+  },
+  {
+   "url": "https://www.gamepressure.com/warhammer-40000-rogue-trader/how-to-complete-underworld/z211196",
+   "title": "Gamepressure - How to complete Underworld"
+  },
+  {
+   "url": "https://www.thegamer.com/warhammer-40000-rogue-trader-underworld-quest-walkthrough-guide/",
+   "title": "TheGamer - Complete Underworld Quest Walkthrough"
+  },
+  {
+   "url": "https://www.gamerguides.com/warhammer-40k-rogue-trader/guide/walkthrough/chapter-2/hidden-in-the-furnace-walkthrough-rogue-trader",
+   "title": "GamerGuides - Hidden in the Furnace (via busca; fetch bloqueado)"
+  }
+ ],
+ "steps": [
+  {
+   "order": 1,
+   "type": "quest_step",
+   "title": "Aceitar o pedido do Clerk (rota Fidelio de Underworld)",
+   "details": "Durante o funeral no Atrium (rota em que você se passa por Fidelio), um Administratum Clerk pede que recupere um contêiner de implantes do forno do crematório — errand 'Hidden in the Furnace', obtida e completada automaticamente como parte de Underworld. A porta fica ao norte do caixão. ANTES de entrar, fale com Adelia (canto superior esquerdo do funeral) para não perder o melhor final da quest.",
+   "quest": "Hidden in the furnace",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Hidden+in+the+furnace"
+  },
+  {
+   "order": 2,
+   "type": "interaction",
+   "title": "Armadilha na porta de entrada (Awareness)",
+   "details": "Na entrada do Crematorium, passe num check de Awareness para detectar e desarmar uma armadilha na porta.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Underworld"
+  },
+  {
+   "order": 3,
+   "type": "item",
+   "title": "Barril escondido com cargo (canto esquerdo)",
+   "details": "Num dos cantos esquerdos do Crematorium há um barril escondido com loot de cargo. Pegue antes de descer ao forno — depois da armadilha não dá para voltar.",
+   "quest": "Underworld",
+   "missable": true,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Underworld"
+  },
+  {
+   "order": 4,
+   "type": "interaction",
+   "title": "Entrar no forno (Athletics) e check de Tech-Use",
+   "details": "Passe num check de Athletics para descer/entrar no forno. Opcional: teste de Tech-Use no dispositivo reaproveitado ('repurposed ending') para um pouco de XP.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://roguetrader.wiki.fextralife.com/Underworld"
+  },
+  {
+   "order": 5,
+   "type": "quest_step",
+   "title": "O baú vazio: é uma armadilha",
+   "details": "Interaja com o baú/caixa na câmara principal do forno — está vazio. É uma armadilha de quem quer Fidelio morto: o forno é ativado e começa a causar dano de fogo no grupo a cada momento dentro dele.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "high",
+   "source_url": "https://www.gamepressure.com/warhammer-40000-rogue-trader/how-to-complete-underworld/z211196"
+  },
+  {
+   "order": 6,
+   "type": "quest_step",
+   "title": "Fuga: atirar no painel do chão",
+   "details": "Para não ser cremado vivo: pressione Tab para destacar o painel quebrável no chão (peça vermelha brilhante) e faça UM membro do grupo atirar nele (ou golpeá-lo em melee — Abelard serve). O chão abre e o grupo desce para os subterrâneos. +154 XP pela fuga. Continuação no arquivo slums-sewers.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "medium",
+   "source_url": "https://www.thegamer.com/warhammer-40000-rogue-trader-underworld-quest-walkthrough-guide/"
+  },
+  {
+   "order": 7,
+   "type": "combat_tip",
+   "title": "Dica: leve um personagem de melee/ataque confiável",
+   "details": "A fuga exige acertar o painel sob pressão de dano contínuo de fogo. Qualquer ataque serve para quebrar a placa do chão — use um personagem com ataque garantido (melee como Abelard) para não desperdiçar turnos errando o tiro enquanto o grupo queima.",
+   "quest": "Underworld",
+   "missable": false,
+   "spoiler": "low",
+   "source_url": "https://www.gamepressure.com/warhammer-40000-rogue-trader/how-to-complete-underworld/z211196"
+  }
+ ]
+}

@@ -2,6 +2,8 @@
 
 - Valida contra o schema MapGuide (pydantic).
 - Renumera ``order`` para 1..n mantendo a ordem original.
+- Injeta aliases internos do jogo (internal_aliases.json: slug -> nomes de
+  área como aparecem nos saves/blueprints), que fazem o casamento save↔guia.
 - Slug do arquivo de saída = nome do arquivo bruto.
 Uso: .venv/bin/python tools/curate_knowledge.py [--raw D] [--maps D]
 """
@@ -28,6 +30,10 @@ def main() -> None:
     args = ap.parse_args()
 
     args.maps.mkdir(parents=True, exist_ok=True)
+    aliases_path = BASE / "internal_aliases.json"
+    internal_aliases: dict[str, list[str]] = (
+        json.loads(aliases_path.read_text()) if aliases_path.exists() else {}
+    )
     ok, failed = 0, []
     for path in sorted(args.raw.rglob("*.json")):
         if path.name.startswith("_"):
@@ -40,6 +46,9 @@ def main() -> None:
         guide.steps.sort(key=lambda s: s.order)
         for i, step in enumerate(guide.steps, start=1):
             step.order = i
+        for alias in internal_aliases.get(path.stem, []):
+            if alias not in guide.aliases:
+                guide.aliases.append(alias)
         out = args.maps / path.name
         out.write_text(guide.model_dump_json(indent=1))
         ok += 1
