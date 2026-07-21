@@ -19,11 +19,14 @@ from couch_buddy.state.watcher import SaveWatcher
 log = logging.getLogger("couch_buddy")
 
 
-def _load_guid_map(path: Path) -> dict[str, str]:
-    if path.exists():
-        raw = json.loads(path.read_text())
-        return {guid: entry["name"] for guid, entry in raw.items()}
-    return {}
+def _load_guid_map(path: Path, blueprint_names: dict[str, dict]) -> dict[str, str]:
+    """Nome de área por GUID: heurística dos saves < blueprint < manual."""
+    raw = json.loads(path.read_text()) if path.exists() else {}
+    guid_map = {guid: entry["name"] for guid, entry in raw.items()}
+    for guid, entry in blueprint_names.items():
+        if entry.get("type") == "BlueprintArea" and not raw.get(guid, {}).get("manual"):
+            guid_map[guid] = entry["name"]
+    return guid_map
 
 
 def _latest_save(saves_dir: Path) -> Path | None:
@@ -54,13 +57,14 @@ def main() -> None:
     args = ap.parse_args()
 
     names_path = config.data_dir / "blueprint_names.json"
+    blueprint_names: dict[str, dict] = (
+        json.loads(names_path.read_text()) if names_path.exists() else {}
+    )
     companion = Companion(
         library=GuideLibrary(config.maps_dir),
         progress=ProgressStore(config.progress_dir),
-        guid_map=_load_guid_map(config.guid_map_path),
-        blueprint_names=json.loads(names_path.read_text())
-        if names_path.exists()
-        else {},
+        guid_map=_load_guid_map(config.guid_map_path, blueprint_names),
+        blueprint_names=blueprint_names,
     )
 
     if latest := _latest_save(args.saves_dir):
