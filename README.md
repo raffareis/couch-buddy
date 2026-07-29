@@ -1,12 +1,13 @@
-# couch-buddy
+# couch-buddy — migrado
 
-Companion de jogos no 2º monitor: mostra a checklist do mapa atual (itens, interações, quests, decisões, dicas de combate) extraída de walkthroughs completos, atualizando sozinha a partir dos saves do jogo — sem alt+tab.
+> **Este repositório foi arquivado em 2026-07-29.** O companion de Rogue
+> Trader agora vive no
+> [game-shark](https://github.com/raffareis/game-shark), em
+> [`games/wh40k-rogue-trader/`](https://github.com/raffareis/game-shark/tree/main/games/wh40k-rogue-trader),
+> com a história completa deste repo preservada via `git filter-repo`.
+> Contexto: [game-shark#5](https://github.com/raffareis/game-shark/issues/5).
 
-Primeiro jogo suportado: **Warhammer 40,000: Rogue Trader**.
-
-```bash
-uv venv && uv pip install -e ".[dev]"
-.venv/bin/couch-buddy        # sobe o servidor (porta 8017) e abre o Chrome no 2º monitor
-```
-
-Detalhes de arquitetura e operação: `CLAUDE.md`. Spec e plano: `docs/superpowers/`.
+Companion de jogos no 2º monitor: mostra a checklist do mapa atual (itens,
+interações, quests, decisões) extraída de walkthroughs completos, atualizando
+sozinha a partir dos saves do jogo — sem alt+tab. Primeiro jogo suportado:
+**Warhammer 40,000: Rogue Trader**.
